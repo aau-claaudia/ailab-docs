@@ -1,0 +1,90 @@
+site_name: AI Cloud Documentation
+nav:
+  - index.md
+  - Overview: overview.md
+
+  - Introduction: introduction.md
+
+  - Running jobs: slurm.md
+
+  - Containers: singularity.md
+
+  - "Additional examples":
+    - "Interactive TensorFlow": examples/interactive_tensorflow.md
+    - "PyTorch and Anaconda": examples/pytorch_anaconda.md
+    - "Matlab": examples/matlab.md
+    - "PyTorch and multi-precision training": torch_amp_example/README.md
+    - "Multi-GPU data parallelism training with Horovod and Keras": multi_gpu_keras/README.md
+    - "PyTorch and automatic mixed precision with APEX": torch_amp_example/README.md
+    - "Python pip in containers": examples/pip_in_containers.md
+    - "Mount user directory on your local computer": examples/mount_dir.md
+    
+  - "Workshop": workshop/workshop.md
+  
+  - "Additional resources": additional.md
+  
+theme:
+  name: material
+  #custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - toc.integrate
+    - navigation.indexes
+    - navigation.sections
+    - content.tabs.link
+
+  logo: assets/logo_round.png
+  favicon: assets/favicon.ico
+
+  font:
+    text: barlow
+ 
+  language: en
+
+extra_css:
+  - stylesheets/extra.css
+
+repo_url: https://github.com/aau-claaudia/aicloud-docs
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - attr_list
+  - def_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc
+#  - pymdownx.keys
+#  - pymdownx.highlight:
+#      linenums: true
+#      linenums_style: pymdownx-inline
+
+#  - pymdownx.snippets
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/claaudia_aau
+      name: Claaudia on Twitter
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:claaudia@aau.dk
+
+    - icon: fontawesome/solid/globe
+      link: https://www.claaudia.aau.dk/
+
+  #generator: True
+
+copyright: Copyright &copy; 2021 - 2023 CLAAUDIA
+
+
+#extra_javascript:
+#  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+#  - javascripts/config.js
+#extra_css:
+#  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
