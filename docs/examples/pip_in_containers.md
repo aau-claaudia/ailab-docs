@@ -1,6 +1,6 @@
 *Note that this is not a recommended approach. Please read [Installing
 software in
-containers](../../singularity/#installing-software-in-containers) first,
+containers](singularity.md#installing-software-in-containers) first,
 and consider the approach below a last resort.*
 
 ## The Challenge

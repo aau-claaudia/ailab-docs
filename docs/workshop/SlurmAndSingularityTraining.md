@@ -31,7 +31,7 @@
 
 ## High level design
 
-  ![AI Cloud Design](../images/AICloudDesign.png){width=75%}
+  <!-- ![AI Cloud Design](../images/AICloudDesign.png){width=75%} Not found-->
 
 # Getting started 
 

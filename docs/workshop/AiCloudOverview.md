@@ -43,7 +43,7 @@ Usage guide here: <https://aicloud-docs.claaudia.aau.dk/>
 
 ## High level design
 
-  ![AI Cloud overview](ai-cloud-overview.pdf){width=85%}
+  ![AI Cloud overview](AiCloudOverview.pdf){width=85%}
 
 ## Resource management
 
