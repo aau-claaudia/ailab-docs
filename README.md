@@ -1,3 +1,3 @@
-Platform documentation and user guide for AI Lab
+# Documentation
 
-[Currently being developed]
+Documentation: <https://aicloud-docs.claaudia.aau.dk/>

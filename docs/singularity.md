@@ -10,7 +10,7 @@ creating an issue:
 
 The Singularity container images ('.sif' files) you get by downloading
 a pre-defined container from for example NGC with `singularity pull`
-(see also [Introduction](introduction.md#obtaining-containers)) are
+(see also [Introduction](../introduction/#obtaining-containers)) are
 read-only. This means you cannot install additional software in them
 directly. There are several different ways you can go about it instead
 to be able to install additional software into your containers:
@@ -59,7 +59,7 @@ Singularity> pip install [package name]
 When not installing software in the container you can run applications
 in it as usual, without the ability to write to the container. See
 commands in the
-[Introduction](introduction.md#running-applications-in-containers).
+[Introduction](../introduction/#running-applications-in-containers).
 
 ### Build a new container image file with Cotainr
 
@@ -114,7 +114,7 @@ This is not recommended, as the method is a bit "brittle". It is easy
 to set it up wrong and end up in a situation where versions of
 packages installed for different container images get mixed up and
 cause problems. Consider this a last resort: [Please see this
-guide](examples/pip_in_containers.md).
+guide](../examples/pip_in_containers).
 
 ## Work-arounds for slow and memory-consuming container builds {#work-arounds}
 
