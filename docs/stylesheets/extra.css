@@ -3,3 +3,13 @@
   --md-primary-fg-color--light: #594fbf;
   --md-primary-fg-color--dark:  #54616e;
 }
+.md-typeset a {
+  color: #5e8bde !important;
+}
+.md-typeset a:hover {
+  color: #303fa1 !important;
+}
+
+.md-footer {
+  margin-top: 100px;
+}

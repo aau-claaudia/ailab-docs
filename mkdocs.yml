@@ -1,28 +1,29 @@
-site_name: AI Cloud Documentation
+site_name: AI Student Cloud Documentation
 nav:
-  - index.md
-  - Overview: overview.md
+  - Overview:
+    - Quick Overview of AI Student Cloud: index.md
+    #- What can I use the AI Student Cloud for?: overview/subpage-1.md
+    #- Subpage 2: overview/subpage-2.md
 
-  - Introduction: introduction.md
+  - Getting Started:
+    - Getting Access: getting-started/getting-access.md
+    - File Transfer: getting-started/file-transfer.md
+    - Running Jobs: getting-started/running-jobs.md
 
-  - Running jobs: slurm.md
 
-  - Containers: singularity.md
+  - Application Guides:
+    - "Interactive TensorFlow": application-guides/interactive-tensorflow.md
+    - "PyTorch and Anaconda": application-guides/pytorch-anaconda.md
+    - "Matlab": application-guides/matlab.md
+    - "Multi-GPU data parallelism training with Horovod and Keras": application-guides/multi-gpu-keras.md
+    - "PyTorch and automatic mixed precision with APEX": application-guides/torch-amp.md
+    - "Python pip in containers": application-guides/pip-in-containers.md
+    - "Mount user directory on your local computer": application-guides/mount-dir.md
 
-  - "Additional examples":
-    - "Interactive TensorFlow": examples/interactive_tensorflow.md
-    - "PyTorch and Anaconda": examples/pytorch_anaconda.md
-    - "Matlab": examples/matlab.md
-    - "PyTorch and multi-precision training": torch_amp_example/README.md
-    - "Multi-GPU data parallelism training with Horovod and Keras": multi_gpu_keras/README.md
-    - "PyTorch and automatic mixed precision with APEX": torch_amp_example/README.md
-    - "Python pip in containers": examples/pip_in_containers.md
-    - "Mount user directory on your local computer": examples/mount_dir.md
-    
-  - "Workshop": workshop/workshop.md
-  
-  - "Additional resources": additional.md
-  
+  - Help:
+    - Getting Help: help/getting-help.md
+    - FAQ: help/faq.md
+
 theme:
   name: material
   #custom_dir: overrides
@@ -33,6 +34,8 @@ theme:
     - navigation.indexes
     - navigation.sections
     - content.tabs.link
+    - navigation.footer
+    - content.code.copy
 
   logo: assets/logo_round.png
   favicon: assets/favicon.ico
@@ -68,19 +71,16 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/claaudia_aau
-      name: Claaudia on Twitter
-
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:claaudia@aau.dk
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/claaudia/
+      name: Claaudia on LinkedIn
 
     - icon: fontawesome/solid/globe
-      link: https://www.claaudia.aau.dk/
+      link: https://www.researcher.aau.dk/contact/claaudia
 
   #generator: True
 
-copyright: Copyright &copy; 2021 - 2023 CLAAUDIA
+copyright: Copyright &copy; 2024 CLAAUDIA
 
 
 #extra_javascript:
