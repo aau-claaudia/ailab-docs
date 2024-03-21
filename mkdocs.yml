@@ -1,41 +1,45 @@
 site_name: AI Student Cloud Documentation
 nav:
   - Overview:
-    - Quick Overview of AI Student Cloud: index.md
-    #- What can I use the AI Student Cloud for?: overview/subpage-1.md
-    #- Subpage 2: overview/subpage-2.md
-
+    - Overview of AI Student Cloud: index.md
+    - System Overview: overview/system-overview.md
+    - Fair Usage: overview/fair-usage.md
+    - FAQ: overview/faq.md
+    - Support: overview/support.md
+    
   - Getting Started:
     - Getting Access: getting-started/getting-access.md
     - File Transfer: getting-started/file-transfer.md
+    - Installing Applications: getting-started/installing-applications.md
     - Running Jobs: getting-started/running-jobs.md
 
-
   - Application Guides:
-    - "Interactive TensorFlow": application-guides/interactive-tensorflow.md
-    - "PyTorch and Anaconda": application-guides/pytorch-anaconda.md
     - "Matlab": application-guides/matlab.md
-    - "Multi-GPU data parallelism training with Horovod and Keras": application-guides/multi-gpu-keras.md
-    - "PyTorch and automatic mixed precision with APEX": application-guides/torch-amp.md
-    - "Python pip in containers": application-guides/pip-in-containers.md
-    - "Mount user directory on your local computer": application-guides/mount-dir.md
+    #- "Interactive TensorFlow": application-guides/interactive-tensorflow.md
+    #- "PyTorch and Anaconda": application-guides/pytorch-anaconda.md
+    #- "Multi-GPU data parallelism training with Horovod and Keras": application-guides/multi-gpu-keras.md
+    #- "PyTorch and automatic mixed precision with APEX": application-guides/torch-amp.md
+    #- "Python pip in containers": application-guides/pip-in-containers.md
+    #- "Mount user directory on your local computer": application-guides/mount-dir.md
+    #- "Jupyter": application-guides/jupyter.md
 
-  - Help:
-    - Getting Help: help/getting-help.md
-    - FAQ: help/faq.md
+  - Additional Guides:
+    - "Building Memory Consuming Containers": additional-guides/building-memory-consuming-containers.md
+    - "Building Containers Faster": additional-guides/building-containers-faster.md
 
 theme:
   name: material
-  #custom_dir: overrides
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.instant
-    - toc.integrate
     - navigation.indexes
     - navigation.sections
     - content.tabs.link
     - navigation.footer
     - content.code.copy
+    - hide.navigation
+    - content.code.annotate
 
   logo: assets/logo_round.png
   favicon: assets/favicon.ico
@@ -45,10 +49,14 @@ theme:
  
   language: en
 
+  icon:
+    annotation: material/plus-circle
+
+
 extra_css:
   - stylesheets/extra.css
 
-repo_url: https://github.com/aau-claaudia/aicloud-docs
+repo_url: https://github.com/aau-claaudia/aicloud-docs #TODO: change url
 
 markdown_extensions:
   - pymdownx.superfences
@@ -56,19 +64,20 @@ markdown_extensions:
       alternate_style: true 
   - pymdownx.inlinehilite
   - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.tilde
   - attr_list
   - def_list
   - admonition
+  - md_in_html
   - pymdownx.details
-  - pymdownx.superfences
-  - toc
-#  - pymdownx.keys
-#  - pymdownx.highlight:
-#      linenums: true
-#      linenums_style: pymdownx-inline
-
-#  - pymdownx.snippets
-
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 extra:
   social:
     - icon: fontawesome/brands/linkedin

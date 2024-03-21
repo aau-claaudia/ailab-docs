@@ -13,3 +13,15 @@
 .md-footer {
   margin-top: 100px;
 }
+.md-sidebar--secondary {
+  visibility: hidden !important;
+}
+.md-nav__link--active {
+  font-weight: bold;
+}
+.md-nav {
+  margin-bottom: 10px;
+}
+.md-nav__item--section>.md-nav__link {
+  font-weight: 400;
+}
