@@ -1,16 +1,52 @@
-The AI Student Cloud is a powerful computing platform available to students at Aalborg University, designed to support intensive computational tasks, particularly those involving machine learning. It's essentially a cluster of high-performance servers equipped with advanced GPU hardware, making it a small-scale supercomputer or a [high-performance computing (HPC)](https://www.researcher.aau.dk/guides/research-data/high-performance-computing/introduction-to-hpc) cluster. Get an overview of the system [here](/overview/system-overview).
+# Welcome to AI Student Cloud documentation
 
-### How to access AI Student Cloud?
-The AI Student Cloud is available to all students at Aalborg University. Students wishing to use the AI Student Cloud must have their application initiated by their supervisor. This requirement ensures that the projects undertaken have academic merit and are under the guidance of a faculty member. To apply, your supervisor will need to complete the necessary [application form](INSERTLINKHERE)==CHANGE LINK== on your behalf. Access is granted for specific periods, typically in relation to research projects or semester work, upon approval by a supervisor. 
+Welcome to the AI Student Cloud documentation, a guide designed to help Aalborg University students delve into powerful computing projects. Think of AI Student Cloud as a small-scale supercomputer or a [high-performance computing (HPC)](https://www.researcher.aau.dk/guides/research-data/high-performance-computing/introduction-to-hpc) cluster, perfect for tasks like AI processing, right from your laptop. Stay tuned as we delve deeper into how you can leverage this powerful tool in your academic journey, including accessing the system, choosing the right hardware for your tasks, and getting your projects off the ground. 
 
-### What can AI Student Cloud be used for?
-The platform excels in tasks requiring parallel processing capabilities, such as training deep learning models, image and video analysis, and other GPU-accelerated computational work. However, it's not intended for applications that only need CPU processing. In the AI Student Cloud documentation you can find specific [Application Guides](/application-guides/interactive-tensorflow/) for examples.
+Before [getting started](/getting-started/login) we recommend getting an [overview](/overview) of AI Student Cloud and reading our [usage policy](/usage-policy).
 
-### Fair Usage
-We kindly ask that all users consider the guidelines of [Fair Usage](/overview/fair-usage)
+<br>
 
-### Getting Started
-To [get started](/getting-started/getting-access), you'll need to familiarize yourself with the command-line interface, job scheduling, and containerization. The AI Student Cloud documentation will help you navigate these aspects. 
+<div class="grid cards" markdown>
 
-### Terms and Conditions
-To ensure a seamless and efficient experience with AI Student Cloud, we urge all prospective users to thoroughly review our [Terms and Conditions](INSERTLINKERE)==CHANGE LINK== before attempting to access AI Student Cloud. Adhering to these guidelines is essential for maintaining the integrity and availability of our resources for all users.
+-   :material-book-open-outline:{ .lg .middle } __Overview__
+
+    ---
+
+    What is AI Student Cloud
+
+    [:octicons-arrow-right-24: Overview](/overview)
+
+-   :material-scale-balance:{ .lg .middle } __Usage Policy__
+
+    ---
+
+    Best practices for using AI Student Cloud
+
+    [:octicons-arrow-right-24: Usage Policy](/usage-policy)
+
+-   :octicons-rocket-24:{ .lg .middle } __Getting Started__
+
+    ---
+
+    Step-by-step guide to AI Student Cloud
+
+    [:octicons-arrow-right-24: Getting Started](/getting-started/login)
+
+-   :material-lightbulb-outline:{ .lg .middle } __Tutorials__
+
+    ---
+
+    AI Student Cloud applications tutorials
+
+    [:octicons-arrow-right-24: Tutorials](/tutorials/matlab)
+
+-   :material-comment-question-outline:{ .lg .middle } __FAQ__
+
+    ---
+
+    Find answers to frequently asked questions
+
+    [:octicons-arrow-right-24: FAQ](/faq)
+
+
+</div>

@@ -1,17 +1,28 @@
+### What is AI Student Cloud
+The AI Student Cloud is designed exclusively for students at Aalborg University, offering [high-performance computing (HPC)](https://www.researcher.aau.dk/guides/research-data/high-performance-computing/introduction-to-hpc) right at your fingertips. Think of it as a mini supercomputer, packed with GPUs, making it a perfect playground for training [deep learning](#) models, running simulations, and performing high-speed data analysis.
+
+This platform is home to an extensive collection of [GPU resources](/overview/#system-overview), tailored specifically for machine learning tasks. Whether you're working on image recognition, deep learning tasks, or data processing, AI Student Cloud is equipped to handle vast processes that benefit from [parallel computing](#).
+
+### What is the purpose of AI Student Cloud?
+AI Student Cloud isn't just about providing hardware; it's about opening the door to high-performance computing for students, with an educational twist. From simulations to deep learning, it supports a large number of [applications](/tutorials/matlab), all while fostering an environment where students can experiment, learn, and grow their computational skills. We advocate reading the [Usage policy](/usage-policy/) of AI Student Cloud before getting started.
+
+### How to access?
+First you need to fill out an [application form](#)==CHANGE LINK== to request for access. After getting approval, you can access AI Student Cloud using a terminal application from your computer to log into the [front-end node](#). This is where you'll manage files and submit jobs to be processed on the GPU nodes. It's a shared resource, emphasizing learning how to navigate a queueing mechanism and understand containerization. We will guide you through all this in [Getting started](/getting-started/login).
+
+### Who manage AI Student Cloud
+AI Student Cloud is a facility at Aalborg University managed by the [CLAAUDIA](https://www.researcher.aau.dk/contact/claaudia) team.
+
+
+## System overview
 AI Student Cloud consists of a front-end node (ai-fe02.srv.aau.dk) and a number of compute nodes. AI Student Cloud is a heterogeneous platform with several different
 types of hardware available in the compute nodes.
 
-The compute nodes of the AI Student Cloud currently include: ==PUT IN NEW AI STUDENT CLOUD NODES==
+The compute nodes of the AI Student Cloud currently include: 
 
 | Node name  | CPU                       | System RAM | GPU                         |
 | ---------- | ------------------------- | ---------- |  -------------------------- |
 | a256-t4-01 | 2x AMD EPYC 7302 16-core  | 256GB      | 6x NVIDIA T4 GPUs, 16GB RAM |
-| .......... | ........................  | .......... | ........................... |
-| .......... | ........................  | .......... | ........................... |
-| .......... | ........................  | .......... | ........................... |
-| .......... | ........................  | .......... | ........................... |
-| .......... | ........................  | .......... | ........................... |
-| .......... | ........................  | .......... | ........................... |
+| ==PUT IN NEW AI STUDENT CLOUD NODES== | ........................  | .......... | ........................... |
 | .......... | ........................  | .......... | ........................... |
 
 This diverse selection of

@@ -1,3 +1,6 @@
+
+==Arbejd lokalt i jupyter først screenshots -> export .py - drop til hpc...==
+
 ## TensorFlow and Jupyter notebook using TensorFlow container
 
 *This section needs an update*

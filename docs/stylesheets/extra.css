@@ -3,18 +3,15 @@
   --md-primary-fg-color--light: #594fbf;
   --md-primary-fg-color--dark:  #54616e;
 }
+
 .md-typeset a {
   color: #5e8bde !important;
 }
 .md-typeset a:hover {
   color: #303fa1 !important;
 }
-
 .md-footer {
   margin-top: 100px;
-}
-.md-sidebar--secondary {
-  visibility: hidden !important;
 }
 .md-nav__link--active {
   font-weight: bold;
@@ -23,5 +20,68 @@
   margin-bottom: 10px;
 }
 .md-nav__item--section>.md-nav__link {
+  display: none;
+}
+.md-header__title {
+  font-family: Barlow, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+.md-typeset p {
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
+  font-size: 16px;
+}
+.md-typeset h1 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+  font-size: 40.08px;
+  line-height: 48.96px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+}
+.md-typeset h2 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+}
+.md-typeset h3 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+}
+.md-typeset h4, strong {
+  font-family: Barlow, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+  letter-spacing: 1px;
+  margin-top: 1.5rem;
+}
+.twemoji svg {
+  fill: var(--md-typeset-a-color) !important;
+}
+.admonition p, details p, .md-typeset ul li {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 12.8px !important;
+  line-height: 21.8px !important;
+}
+code .go, code {
+  font-size: 12px !important;
+  color: rgb(54, 70, 78) !important;
+}
+.grid ul li {
+  box-shadow: 1px 1px 5px 1px rgba(50,50,50,0.1);
 }

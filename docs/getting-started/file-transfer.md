@@ -7,6 +7,8 @@
 
 	When you open WinSCP, you will be welcomed by a 'Login' modal. Follow the instructions in the image above to establish a connection to the server. You can now drag and drop files between your local computer and the AI Student Cloud platform.
 
+	You might want to display hidden files in WinSCP (such as files starting with a dot on Linux systems). Go to Options → Preferences... → Panels and turn on "Show hidden files".
+
 ===+ "Linux/MacOS"
 
 	You can transfer files to/from AI Student Cloud using the command line utility
@@ -20,7 +22,6 @@
 		
 		where '~' means your user directory on AI Student Cloud. You can append
 		directories below that to your destination:
-
 		==CHANGE ai-fe02.srv.aau.dk ADDRESS==
 
 	???+ example
@@ -28,6 +29,7 @@
 		```console
 		scp some-file <aau email>@ai-fe02.srv.aau.dk:~/some-dir/some-sub-dir/
 		```
+		
 		==CHANGE ai-fe02.srv.aau.dk ADDRESS==
 	You can also copy in the opposite direction, e.g. from the AI Student Cloud
 	pilot platform to your local computer with:
@@ -38,9 +40,8 @@
 		scp <aau email>@ai-fe02.srv.aau.dk:~/some-folder/some-subfolder/some-file .
 		```
 		
-		where '.' means the current directory you are located in on your local
+		where `.` means the current directory you are located in on your local
 		computer.
-
 		==CHANGE ai-fe02.srv.aau.dk ADDRESS==
 
 	In general, file transfer tools that can use SSH as protocol should

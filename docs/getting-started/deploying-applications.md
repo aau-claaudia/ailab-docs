@@ -1,5 +1,9 @@
+==Forklar hvad containers her==
+
+
 To install applications on AI Student Cloud, you must utilize the container technology, [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html). You can choose a pre-built container that includes all the necessary packages, or customize a container with additional installations. We will cover both scenarios in the following section.
 
+==Flyt det her op til start==
 ??? info "What is a container?"
     A container is a stand-alone, executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.   
 
@@ -125,6 +129,7 @@ After this has been done, you should have a directory called `cotainr-2023.11.0`
 ```console
 srun [path/to/cotainr] build [name of output file] --base-image=[base image] --conda-env=[name of environment]
 ```
+
 We use `srun` to ask Slurm to delegate the subsequent command to a compute node. 
 We then need to specify the path to `cotainr/bin/cotainr` and call `build`. Then choose a name for your container and replace `[name of output file]` with this newly chosen name. We recommend appending the conventional suffix `.sif` to this name.
 After that you will need to specify a `[base image]`, which can be an existing container in your directory or one from a remote source. Finally use the parameter `--conda-env` to specify which Conda environment file you want to use. If you have an existing Conda environment somewhere, you can export this environment `conda env export > my_environemt.yml`.
@@ -148,7 +153,7 @@ container. Please see the [Singularity
 documentation](https://docs.sylabs.io/guides/3.8/user-guide/build_a_container.html#building-containers-from-singularityce-definition-files)
 for details on how to build containers from definition files.
 
-### 4. Install Python packages with `pip` or `conda` outside the container
+### 4. Install Python packages with pip or conda outside the container
 
 This is not recommended, as the method is a bit "brittle". It is easy
 to set it up wrong and end up in a situation where versions of

@@ -16,9 +16,8 @@ The simplest way to run a job via Slurm is to use the command `srun`, which you 
     ```console
     srun hostname
     ```
-    This runs the command `hostname` as a job in the queue system. When
-      run like this with no further parameters specified, Slurm will run the
-      command on the first compute node available.  
+
+    This runs the command `hostname` as a job in the queue system. When run like this with no further parameters specified, Slurm will run the command on the first compute node available.  
 
     The command will return one of these host names. If the command displays
     `srun: job XXXXXX queued and waiting for resources`, this means that all
@@ -231,7 +230,7 @@ enable support for NVIDIA GPUs in Singularity:
     will not be available inside the container.
 
 These were a few of the most basic details to get started using the AI Student Cloud. Once you have familiarised yourself a bit with the AI Student Cloud, we
-suggest you have a closer look at [Application Guides](/application-guides/interactive-tensorflow/) which contains more detailed examples of concrete use cases for the AI Student Cloud.
+suggest you have a closer look at [Tutorials](/tutorials/interactive-tensorflow/) which contains more detailed examples of concrete use cases for the AI Student Cloud.
 
 
 ==TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO==
