@@ -15,32 +15,29 @@ copyright: Copyright &copy; 2024 CLAAUDIA
 nav:
   - Home:
     - Home: index.md
-    - Overview: overview.md
-    - Usage Policy: usage-policy.md
+    - System Overview: system-overview.md
+    - Use Guidelines: use-guidelines.md
     - FAQ: faq.md
+    - Glossery: glossery.md
     - Support: support.md
       
   - Getting Started:
-    - Getting Started:
-      - Login: getting-started/login.md
-      - File Transfer: getting-started/file-transfer.md
-      - Deploying Applications: getting-started/deploying-applications.md
-      - Running Jobs: getting-started/running-jobs.md
-      - Cleaning Up: getting-started/cleaning-up.md
-    - Additional Guides:
-      - "Building Memory Consuming Containers": additional-guides/building-memory-consuming-containers.md
-      - "Building Containers Faster": additional-guides/building-containers-faster.md
+    - "Preperation": getting-started/preperation.md
+    - "Step 1: Login": getting-started/login.md
+    - "Step 2: File Transfer": getting-started/file-transfer.md
+    - "Step 3: Queue System": getting-started/queue-system.md
+    - "Step 4: Obtaining Applications": getting-started/obtaining-applications.md
+    - "Step 5: Running Applications": getting-started/running-applications.md
+    - "Offboarding": getting-started/offboarding.md
 
-
-  - Tutorials:
-    - "Matlab": tutorials/matlab.md
-    #- "Interactive TensorFlow": application-guides/interactive-tensorflow.md
-    #- "PyTorch and Anaconda": application-guides/pytorch-anaconda.md
-    #- "Multi-GPU data parallelism training with Horovod and Keras": application-guides/multi-gpu-keras.md
-    #- "PyTorch and automatic mixed precision with APEX": application-guides/torch-amp.md
-    #- "Python pip in containers": application-guides/pip-in-containers.md
-    #- "Mount user directory on your local computer": application-guides/mount-dir.md
-    #- "Jupyter": application-guides/jupyter.md
+  - Courses:
+    - "Terminal Basics": courses/terminal-basics.md
+    - Containers:
+      - "Build Your Own Container": courses/build-your-own-container.md
+      #- "Customize Containers": courses/customize-containers.md
+      #- "Obtaining Memory Consuming Containers": courses/obtaining-memory-consuming-containers.md
+      #- "Obtaining Containers Faster": courses/obtaining-containers-faster.md
+      #- "Open a Shell in a Container": courses/open-a-shell-in-a-container.md
 
 theme:
   name: material
@@ -49,7 +46,6 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.footer
-    #- navigation.expand
     - content.code.copy
     - content.code.annotate
 

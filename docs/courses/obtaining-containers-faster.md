@@ -1,4 +1,4 @@
-When building Singularity container images, you may experience very
+When obtaining Singularity container images, you may experience very
 slow performance. This is due to the fact that when writing files to
 your user directory, you write to a network file system which is
 known to be slow in some situations. This can cause container image
@@ -50,7 +50,7 @@ specific compute nodes involved when you no longer need them:
 ``rm -r /raid/`whoami` ``
 
 ???+ info
-      This method can be combined with [Building Memory Consuming Containers](/additional-guides/building-memory-consuming-containers) by using both the
+      This method can be combined with [Obtaining Memory Consuming Containers](/courses/obtaining-memory-consuming-containers) by using both the
       temporary directory in `/tmp` and the local cache directory in `/raid`
       and specifying both the `SINGULARITY_TMPDIR` and the
       `SINGULARITY_CACHEDIR` environment variables.

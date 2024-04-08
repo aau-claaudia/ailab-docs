@@ -1,4 +1,4 @@
-Building some Singularity containers in AI Student Cloud may require an
+Obtaining some Singularity containers in AI Student Cloud may require an
 unreasonably large amount of memory to succeed, such as:
 
 ???+ example
@@ -41,7 +41,7 @@ during build of your container:
    ``exit``
 
 ???+ info
-      This method can be combined with [Building Containers Faster](/additional-guides/building-containers-faster) by using both the
+      This method can be combined with [Obtaining Containers Faster](/courses/obtaining-containers-faster) by using both the
       temporary directory in `/tmp` and the local cache directory in `/raid`
       and specifying both the `SINGULARITY_TMPDIR` and the
       `SINGULARITY_CACHEDIR` environment variables.

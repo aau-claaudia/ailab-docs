@@ -11,11 +11,13 @@
     Yes - it is possible to share files among different users on the cluster.
 
 ??? question "Am I allowed to work with confidential or sensitive data on AI Student Cloud?"
+    ==INDSÆT LINK TIL DATA KLASSIFIKATION==
     No. In AI Student Cloud you are only allowed to work with public or internal information according to AAU’s data classification model (classified as levels 0 and 1, respectively).
     
     A similar solution for working with confidentoinal or sensitive data (classified as levels 2 and 3) is being developed.
 
-??? question "Who has access to the AI Student Cloud platform?"
+??? question "Who can have access to the AI Student Cloud platform?"
+    ==UPDATE==
     All researchers at AAU as well as students in relation to relevant projects when approved by supervisor.
 
 ??? question "Why do I get `\r` error when running my .py script?"
