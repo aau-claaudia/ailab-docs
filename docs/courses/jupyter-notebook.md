@@ -7,8 +7,6 @@
 ´srun --pty singularity shell pytorch_24.03-py3.sif´
 
 
-
-
 salloc is a command used in Slurm, a workload manager used in high-performance computing (HPC) environments, to allocate resources for a job before it is executed.
 
 The salloc command is typically used to obtain an interactive shell session or to allocate resources for a specific task without submitting a job script. It allows users to request resources such as CPU cores, memory, GPUs, and time, and interactively run commands or launch applications within the allocated resources.

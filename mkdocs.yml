@@ -33,7 +33,7 @@ nav:
   - Courses:
     - "Terminal Basics": courses/terminal-basics.md
     - Containers:
-      - "Build Your Own Container": courses/build-your-own-container.md
+      - "Creating a conda environment": courses/creating-a-conda-environment.md
       #- "Customize Containers": courses/customize-containers.md
       #- "Obtaining Memory Consuming Containers": courses/obtaining-memory-consuming-containers.md
       #- "Obtaining Containers Faster": courses/obtaining-containers-faster.md
@@ -45,6 +45,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
+    - navigation.expand
     - navigation.footer
     - content.code.copy
     - content.code.annotate
