@@ -19,8 +19,6 @@ You can also create a console codeblock like so:
 
 ```console
 pwd
-ls
-cd
 ```
 
 You can also make it a python codeblock:
