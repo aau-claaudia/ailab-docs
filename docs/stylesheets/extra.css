@@ -92,3 +92,25 @@ code .go, code {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
+.md-typeset .admonition.aau,
+.md-typeset details.aau {
+  border-color: var(--md-primary-fg-color);
+}
+.md-typeset .aau > .admonition-title,
+.md-typeset .aau > summary {
+  background-color: #448aff1a;
+}
+.md-typeset .aau > .admonition-title::before,
+.md-typeset .aau > summary::before {
+  display: none !important;
+}
+.md-typeset .aau > .admonition-title {
+  padding-left: .6rem;
+}
+.arrow-down {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}

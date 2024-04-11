@@ -9,6 +9,9 @@ Now that you are acquainted with [obtaining applications](/getting-started/obtai
 	
 	Here we use `hostname` as a toy example of a command that prints out a simple piece of information and then exits.
 
+!!! info   
+    You can also run a container in interactive mode by using `shell` instead of `exec`. See this [guide](/advanced-guides/running-a-container-in-interactive-mode).
+
 ### Allocating a GPU to your job
 
 The primary role of the AI Student Cloud is to run software that utilises one or more GPUs for computations. In order to run applications with a GPU you need to allocate a GPU to a job using Slurm. 
@@ -48,18 +51,12 @@ Let's try running a small Python script that performs a simple matrix multiplica
     ```
 
     ==UPDATE EXAMPLE WITH a10:1 TO MATCH AI STUDENT CLOUD GPU==
-    
+
+
 <br>
 <span style="color: var(--md-primary-fg-color); font-weight: 700;">:material-party-popper: Congratulations! </span>You have now completed the basics of getting started with AI Student Cloud. As you continue your journey, it's important to understand the process of [offboarding](/getting-started/offboarding) from the platform. We also suggest you have a closer look at [Courses](/courses/terminal-basics) which contains more detailed examples of concrete use cases for the AI Student Cloud.
 
 ???+ warning
-    ==Please ensure you review our [offboarding](/getting-started/offboarding) process, as CLAAUDIA will automatically clear all user directories and close any running processes at the end of each semester.==
-
-AI Student Cloud encourages responsible usage, which includes cleaning up your user directory for files that are no longer needed. Let's take a moment to tidy up the files associated with this "Getting Started" tutorial (*...if you no longer need the files*).
-
-```console
-rm tensorflow_24.03-tf2-py3.sif
-rm benchmark_tensorflow.py
-```
+    ==Please ensure you review our [offboarding](/getting-started/offboarding) process, as CLAAUDIA will automatically clear all user information and directories and close any running processes at the end of each semester.==
 
 For all questions and requests, please refer to the [support](/support) page.

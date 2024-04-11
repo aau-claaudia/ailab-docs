@@ -16,19 +16,23 @@ nav:
   - Home:
     - Home: index.md
     - System Overview: system-overview.md
-    - Use Guidelines: use-guidelines.md
+    - Guidelines: guidelines.md
     - FAQ: faq.md
     - Glossery: glossery.md
     - Support: support.md
       
   - Getting Started:
-    - "Preperation": getting-started/preperation.md
-    - "Step 1: Login": getting-started/login.md
-    - "Step 2: File Transfer": getting-started/file-transfer.md
-    - "Step 3: Queue System": getting-started/queue-system.md
-    - "Step 4: Obtaining Applications": getting-started/obtaining-applications.md
-    - "Step 5: Running Applications": getting-started/running-applications.md
-    - "Offboarding": getting-started/offboarding.md
+    - "1. Preperation": getting-started/preperation.md
+    - "2. Login": getting-started/login.md
+    - "3. File Transfer": getting-started/file-transfer.md
+    - "4. Queue System": getting-started/queue-system.md
+    - "5. Obtaining Applications": getting-started/obtaining-applications.md
+    - "6. Running Applications": getting-started/running-applications.md
+    - "7. Offboarding": getting-started/offboarding.md
+
+  - Advanced Guides:
+    - "Setting a time limit": advanced-guides/setting-a-time-limit.md
+    - "Running a container in interactive mode": "advanced-guides/running-a-container-in-interactive-mode.md"
 
   - Courses:
     - "Terminal Basics": courses/terminal-basics.md
