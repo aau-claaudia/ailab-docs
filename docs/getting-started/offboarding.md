@@ -17,3 +17,10 @@ At the semester's end, all your data and user information will be automatically 
 
 #### Apply for extension
 Should you wish to keep your data on AI Student Cloud and use the platform for another semester, you can submit an extension request through the [application form](#)==UPDATE== for the AI Student Cloud. Alternatively, you can apply for a new project when the next semester begins.
+
+<br>
+<br>
+
+<span style="color: var(--md-primary-fg-color); font-weight: 700;">:material-party-popper: Congratulations! </span>You have completed the basics of getting started with AI Student Cloud. As you continue your journey, we suggest you have a closer look at [Additional Guides](/additional-guides/terminal-basics) and [Courses](/#)==UPDATE== which contains more detailed examples of concrete use cases for the AI Student Cloud.
+
+For all questions and requests, please refer to the [support](/support) page.

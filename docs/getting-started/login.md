@@ -3,7 +3,7 @@ In practice, working in the AI Student Cloud primarily takes place via a [comman
 
 The AI Student Cloud is only directly accessible when being on the AAU network (including [VPN](https://www.en.its.aau.dk/instructions/vpn) or AAU's [SSH gateway](https://www.en.its.aau.dk/instructions/ssh)). You can connect to AI Student Cloud [front-end node](/glossery/#front-end-node) by running the following command on the command line of your local Windows (*Windows PowerShell*), MacOS or Linux computer:
 
-???+ example
+!!! example
 
     ```console
     ssh -l xxxxxx@student.aau.dk ai-fe02.srv.aau.dk

@@ -24,20 +24,25 @@ nav:
   - Getting Started:
     - "1. Preperation": getting-started/preperation.md
     - "2. Login": getting-started/login.md
-    - "3. File Transfer": getting-started/file-transfer.md
-    - "4. Queue System": getting-started/queue-system.md
-    - "5. Obtaining Applications": getting-started/obtaining-applications.md
-    - "6. Running Applications": getting-started/running-applications.md
-    - "7. Offboarding": getting-started/offboarding.md
+    - "3. File transfer": getting-started/file-transfer.md
+    - "4. Getting applications": getting-started/getting-applications.md
+    - "5. Running applications": getting-started/running-applications.md
+    - "6. Offboarding": getting-started/offboarding.md
 
-  - Advanced Guides:
-    - "Setting a time limit": advanced-guides/setting-a-time-limit.md
-    - "Running a container in interactive mode": "advanced-guides/running-a-container-in-interactive-mode.md"
+  - Additional Guides:
+    - Useful Commands:
+      - "Terminal basics": additional-guides/terminal-basics.md
+      - "Checking the queue": additional-guides/checking-the-queue.md
+      - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
+      - "Running a container in interactive mode": "additional-guides/running-a-container-in-interactive-mode.md"
+      - "Setting a time limit": additional-guides/setting-a-time-limit.md
+    - Creating containers:
+      - "Download containers from NGC": additional-guides/download-containers-from-ngc.md
+      - "Creating a conda environment": additional-guides/creating-a-conda-environment.md
+      - "Download memory consuming containers":  additional-guides/download-memory-consuming-containers.md
 
   - Courses:
-    - "Terminal Basics": courses/terminal-basics.md
-    - Containers:
-      - "Creating a conda environment": courses/creating-a-conda-environment.md
+    - ""
       #- "Customize Containers": courses/customize-containers.md
       #- "Obtaining Memory Consuming Containers": courses/obtaining-memory-consuming-containers.md
       #- "Obtaining Containers Faster": courses/obtaining-containers-faster.md

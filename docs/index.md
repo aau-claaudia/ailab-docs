@@ -1,7 +1,7 @@
 <div id="service-window-warning" style="display: none;" markdown>
-???+ warning "<span id="time-to-window"></span> to the next service window"
+!!! warning "<span id="time-to-window"></span> to the next service window"
 
-    We will be performing a scheduled maintenance on the AI Student Cloud. The routine maintenance will take place <span id="service-date" style="font-weight: bold;"></span> between <span style="font-weight: bold;">00:01 and 23:59</span>. AI Student Cloud will be unavailable throughout most of the day. You can still submit new jobs until the beginning of the service window. For jobs that may exceed the service window, please ensure to set a maximum runtime using the parameter `--time` that concludes before <span style="font-weight: bold;">23:59</span> the day preceding the service window. Read more about the `--time` parameter [here](/advanced-guides/setting-a-time-limit). Otherwise, these jobs will not be able to start until after the maintenance period. You will receive email notifications ==1 month, 14 days, and 1 day== prior to the scheduled maintenance window.
+    We will be performing a scheduled maintenance on the AI Student Cloud. The routine maintenance will take place <span id="service-date" style="font-weight: bold;"></span> between <span style="font-weight: bold;">00:01 and 23:59</span>. AI Student Cloud will be unavailable throughout most of the day. You can still submit new jobs until the beginning of the service window. For jobs that may exceed the service window, please ensure to set a maximum runtime using the parameter `--time` that concludes before <span style="font-weight: bold;">23:59</span> the day preceding the service window. Read more about the `--time` parameter [here](/additional-guides/setting-a-time-limit). Otherwise, these jobs will not be able to start until after the maintenance period. You will receive email notifications ==1 month, 14 days, and 1 day== prior to the scheduled maintenance window.
  
     If you have any further questions please refer your question to CLAAUDIA through the [AAU service portal](https://www.serviceportal.aau.dk/).
 
@@ -45,7 +45,7 @@ Welcome to the AI Student Cloud documentation, a guide designed to help Aalborg 
 
     AI Student Cloud applications courses
 
-    [:octicons-arrow-right-24: Courses](/courses/terminal-basics)
+    [:octicons-arrow-right-24: Courses](/courses/==UPDATE LINK==)
 
 </div>
 
@@ -56,13 +56,13 @@ The AI Student Cloud is designed exclusively for students at Aalborg University,
 
 This platform is home to an extensive collection of [GPU resources](/system-overview/#overview-of-compute-nodes), tailored specifically for machine learning tasks. Whether you're working on image recognition, deep learning tasks, or data processing, AI Student Cloud is equipped to handle vast processes that benefit from [parallel computing](/glossery/#parallel-computing).
 
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:octicons-goal-24: Purpose</span>"
+!!! custom "<span class="custom-callout-icon">:octicons-goal-24: Purpose</span>"
     AI Student Cloud isn't just about providing hardware; it's about opening the door to high-performance computing for students, with an educational twist. From simulations to deep learning, it supports a large number of applications, all while fostering an environment where students can experiment, learn, and grow their computational skills. We advocate reading the [Guidelines](/guidelines) of AI Student Cloud before getting started.
 
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:octicons-lock-24: How to access</span>"
+!!! custom "<span class="custom-callout-icon">:octicons-lock-24: How to access</span>"
     First you need to fill out an [application form](#)==CHANGE LINK== to request for access. After getting approval, you can access AI Student Cloud using a terminal application from your computer to log into the [front-end node](/glossery/#front-end-node). This is where you'll manage files and submit jobs to be processed on the GPU nodes. It's a shared resource, emphasizing learning how to navigate a queueing mechanism and understand containerization. We will guide you through all this in [Getting Started](/getting-started/preperation).
 
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:octicons-people-24: Who manage AI Student Cloud</span>"
+!!! custom "<span class="custom-callout-icon">:octicons-people-24: Who manage AI Student Cloud</span>"
     AI Student Cloud is managed by the [CLAAUDIA](https://www.researcher.aau.dk/contact/claaudia) team. CLAAUDIA is a specialized team within ITS at Aalborg University focused on research data support, particularly skilled in leveraging high-performance computing and cloud resources such as AI Student Cloud. They offer [support](/support) and consultations to help students and researchers navigate through options for utilizing supercomputing resources effectively.
 
 <script src="javascripts/serviceWindow.js"></script>

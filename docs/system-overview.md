@@ -1,25 +1,25 @@
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:fontawesome-solid-computer: Front-end node</span>"
+!!! custom "<span class="custom-callout-icon">:fontawesome-solid-computer: Front-end node</span>"
     You start by logging into a front-end node. This is the gateway to the HPC system. Here, you can manage files, write and edit code, and prepare your computational tasks. The front-end node is *not* for heavy computations but for preparation and interaction with the HPC system.
 
 <span class="arrow-down">:octicons-arrow-down-24:</span>
 
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:octicons-database-16: File storage</span>"
+!!! custom "<span class="custom-callout-icon">:octicons-database-16: File storage</span>"
     The AI Student Cloud stores your files in your user directory. Your user directory is stored on a network file system that allows all of the nodes within the platform
     can access your files. This means that if you store or edit a file in your user directory on the front-end node, the compute nodes can see the same file and contents thereof.
 
 <span class="arrow-down">:octicons-arrow-down-24:</span>
 
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:material-human-queue: Queue system</span>"
+!!! custom "<span class="custom-callout-icon">:material-human-queue: Queue system</span>"
     After preparing your computational task, you submit it to AI Student Clouds queue system, [Slurm](/glossery/#slurm). Slurm is like a traffic controller. It receives job submissions from users and decides when and where to run each job based on available resources and the job's requirements. Your job is placed in a queue until resources are available.
 
 <span class="arrow-down">:octicons-arrow-down-24:</span>
 
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:fontawesome-solid-box-open: Containers</span>"
+!!! custom "<span class="custom-callout-icon">:fontawesome-solid-box-open: Containers</span>"
     One job could be to deploy an applications such as TensorFlow. All applications on AI Student Cloud must be obtained in [containers](/glossery/#containers). Containers are like virtual packages that hold all the stuff your program needs to run smoothly. They bundle up everything – the code, libraries, and settings.
 
 <span class="arrow-down">:octicons-arrow-down-24:</span>
 
-!!! aau "<span class="no-callout-icon" style="color: var(--md-primary-fg-color); font-weight: 700;">:octicons-server-24: Compute nodes</span>"
+!!! custom "<span class="custom-callout-icon">:octicons-server-24: Compute nodes</span>"
     Once resources are available, Slurm dispatch the submitted job to specific [compute nodes](/glossery/#compute-nodes) within the AI Student Cloud [computing cluster](/glossery/#computing-cluster).
 
 ``` mermaid
@@ -49,3 +49,15 @@ AI Student Cloud is a heterogeneous platform with several different types of har
 
 This diverse selection of different hardware in the AI Student Cloud allows for more suitable choice of
 specific hardware according to your task. ==MAYBE EXPLAIN EXAMPLES OF WHAT JOBS DIFFERENT NODES WOULD BE FIT FOR==
+
+
+### List of pre-installed software
+
+```console
+SingularityCE 4.1.2
+Slurm 23.11
+Python 3.9.2
+Micro
+```
+
+==UPDATE LIST==
