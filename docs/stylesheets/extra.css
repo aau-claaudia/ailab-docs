@@ -3,3 +3,129 @@
   --md-primary-fg-color--light: #594fbf;
   --md-primary-fg-color--dark:  #54616e;
 }
+
+.md-typeset a {
+  color: #5e8bde !important;
+}
+.md-typeset a:hover {
+  color: #303fa1 !important;
+}
+.md-footer {
+  margin-top: 100px;
+}
+.md-nav__link--active {
+  font-weight: bold;
+}
+.md-nav {
+  margin-bottom: 10px;
+}
+.md-nav__item--section>.md-nav__link {
+  display: none;
+}
+.md-header__title {
+  font-family: Barlow, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+.md-typeset p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.md-typeset h1 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+  font-size: 40.08px;
+  line-height: 48.96px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+}
+.md-typeset h2 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+}
+.md-typeset h3 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+}
+.md-typeset h4, strong {
+  font-family: Barlow, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-transform: uppercase;
+  color: var(--md-typeset-a-color);
+  letter-spacing: 1px;
+  margin-top: 1.5rem;
+}
+.twemoji svg {
+  fill: var(--md-typeset-a-color) !important;
+}
+.admonition p, details p, .md-typeset ul li, details ol, .info ol li, li {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 21.8px !important;
+}
+code .go, code {
+  font-size: 12px !important;
+  color: rgb(54, 70, 78) !important;
+}
+.grid ul li {
+  box-shadow: 1px 1px 5px 1px rgba(50,50,50,0.1);
+}
+.fa {
+  display: inline-block;
+  font: 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.admonition.custom > .admonition-title, 
+.admonition.question > .admonition-title, 
+.admonition.info > .admonition-title,
+.admonition.example > .admonition-title {
+  background-color: #448aff1a !important;
+  color: var(--md-typeset-a-color);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 14px !important;
+  line-height: 21.8px !important;
+}
+.admonition-title.custom::before, .admonition-title.custom::after,
+.admonition.question > .admonition-title::before, .admonition.question > .admonition-title::after,
+.admonition.info > .admonition-title::before, .admonition.info > .admonition-title::after,
+.admonition.example > .admonition-title::before, .admonition.example > .admonition-title::after {
+  background-color: var(--md-typeset-a-color) !important;
+}
+.admonition.custom, .admonition.question, .admonition.info, .admonition.example {
+  border-color: var(--md-typeset-a-color) !important;
+}
+.md-typeset .custom > .admonition-title::before {
+  display: none !important;
+}
+.md-typeset .custom > .admonition-title {
+  padding-left: .6rem;
+}
+.arrow-down {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.custom-callout-icon {
+  color: var(--md-primary-fg-color); 
+  font-weight: 700;
+}

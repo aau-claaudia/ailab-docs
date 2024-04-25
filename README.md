@@ -1,3 +1,4 @@
-Platform documentation and user guide for AI Lab
+# AI Student Cloud Documentation
 
-[Currently being developed]
+Documentation: <UPDATE>
+
