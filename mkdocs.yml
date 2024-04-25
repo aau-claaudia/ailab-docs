@@ -15,13 +15,13 @@ copyright: Copyright &copy; 2024 CLAAUDIA
 nav:
   - Home:
     - Home: index.md
-    - System Overview: system-overview.md
+    - System overview: system-overview.md
     - Guidelines: guidelines.md
     - FAQ: faq.md
     - Glossery: glossery.md
     - Support: support.md
       
-  - Getting Started:
+  - Getting started:
     - "1. Preperation": getting-started/preperation.md
     - "2. Login": getting-started/login.md
     - "3. File transfer": getting-started/file-transfer.md
@@ -29,8 +29,8 @@ nav:
     - "5. Running applications": getting-started/running-applications.md
     - "6. Offboarding": getting-started/offboarding.md
 
-  - Additional Guides:
-    - Useful Commands:
+  - Additional guides:
+    - Useful commands:
       - "Terminal basics": additional-guides/terminal-basics.md
       - "Checking the queue": additional-guides/checking-the-queue.md
       - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
@@ -40,6 +40,9 @@ nav:
       - "Download containers from NGC": additional-guides/download-containers-from-ngc.md
       - "Creating a conda environment": additional-guides/creating-a-conda-environment.md
       - "Download memory consuming containers":  additional-guides/download-memory-consuming-containers.md
+    - For lecturers:
+      - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
+      - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
 
   - Courses:
     - ""

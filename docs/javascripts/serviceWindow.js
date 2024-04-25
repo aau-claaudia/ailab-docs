@@ -5,7 +5,7 @@ function initializeServiceWindow() {
     // Enter the next service window date here in dd-mm-yyyy format
 
     ////////////////////////////////// 
-    const serviceDateStr = '30-04-2024';
+    const serviceDateStr = '30-10-2024';
     /////////////////////////////////
 
     const daysToWarning = 30 // Change when the warning call-out should appear
