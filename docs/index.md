@@ -9,7 +9,7 @@
 
 # Welcome to AI Student Cloud documentation
 
-Welcome to the AI Student Cloud documentation, a guide designed to help Aalborg University students delve into powerful computing projects using AI Student Cloud. Before [getting started](getting-started/preperation.md) we recommend getting an [overview](/system-overview) of the system behind AI Student Cloud and reading our [Guidelines](/guidelines).
+Welcome to the AI Student Cloud documentation, a guide designed to help Aalborg University students delve into powerful computing projects using AI Student Cloud. Before [getting started](getting-started/preperation.md) we recommend getting an [overview](system-overview.md) of the system behind AI Student Cloud and reading our [Guidelines](guidelines.md).
 
 <br>
 
