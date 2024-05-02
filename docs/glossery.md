@@ -8,16 +8,16 @@ The AI Cloud is a facility consisting of several servers designed to be ideal fo
 Parallel computing refers to the simultaneous execution of multiple tasks or parts of a single task across multiple processing units, such as CPUs or GPUs. This approach significantly accelerates computational tasks by dividing the workload among several processors, thereby reducing overall processing time.
 
 #### Front-end node
-The front-end node is used for logging into the platform, accessing your files, and starting jobs on the compute nodes. The front-end node is a relatively small server which is *not* meant for performing heavy computations; only light-weight operations such as transferring files to and from AI Lab and defining and launching job scripts.
+The front-end node is used for logging into the platform, accessing your files, and starting jobs on the compute nodes. The front-end node is a relatively small server which is *not* meant for performing heavy computations; only light-weight operations such as transferring files to and from AI-LAB and defining and launching job scripts.
 
 #### Computing cluster
 A computing cluster is a collection of interconnected computers (compute nodes) that work together as a single, integrated computing resource. This setup is designed to handle large computational tasks more efficiently than a single computer could. Clusters are used for tasks that require high performance and availability, such as scientific simulations, data analysis, and large-scale web services.
 
 #### Compute nodes
-Compute Nodes are the individual computers within the Computing cluster that perform the actual computational work. Each compute node is a separate computer, equipped with its own processors (CPUs), memory (RAM), and GPUs for specialized computations. Compute nodes are networked together and run a unified operating system and software environment. Compute nodes are tasked with executing the computational jobs submitted by users. In AI Lab, users don't interact directly with compute nodes. Instead, they submit jobs through the job scheduler [Slurm](/glossery/#slurm), which then allocates the necessary resources and runs the job on the compute nodes.
+Compute Nodes are the individual computers within the Computing cluster that perform the actual computational work. Each compute node is a separate computer, equipped with its own processors (CPUs), memory (RAM), and GPUs for specialized computations. Compute nodes are networked together and run a unified operating system and software environment. Compute nodes are tasked with executing the computational jobs submitted by users. In AI-LAB, users don't interact directly with compute nodes. Instead, they submit jobs through the job scheduler [Slurm](/glossery/#slurm), which then allocates the necessary resources and runs the job on the compute nodes.
 
 #### Slurm
-The Slurm queue system is AI Labs job scheduling and management tool commonly used in HPC environments. It efficiently allocates computing resources by prioritizing and scheduling jobs submitted by users based on their requirements and available resources. Through Slurm, users can submit their computational tasks to a centralized queue, allowing for fair resource distribution and optimal utilization of the HPC system.
+The Slurm queue system is AI-LABs job scheduling and management tool commonly used in HPC environments. It efficiently allocates computing resources by prioritizing and scheduling jobs submitted by users based on their requirements and available resources. Through Slurm, users can submit their computational tasks to a centralized queue, allowing for fair resource distribution and optimal utilization of the HPC system.
 
 #### Image
 An image is a static, portable file that contains all the components needed to run a piece of software, including the code, runtime, system tools, libraries, and settings. It serves as a blueprint for creating containers.

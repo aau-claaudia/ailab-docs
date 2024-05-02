@@ -1,4 +1,4 @@
-The following commands provide a solid foundation for navigating and working within a Linux terminal environment, particularly in the context of AI Lab. Familiarize yourself with these commands to enhance your productivity and efficiency when using the platform. You can also look at this basic course to the shell at: [https://linuxjourney.com/lesson/the-shell](https://linuxjourney.com/lesson/the-shell).
+The following commands provide a solid foundation for navigating and working within a Linux terminal environment, particularly in the context of AI-LAB. Familiarize yourself with these commands to enhance your productivity and efficiency when using the platform. You can also look at this basic course to the shell at: [https://linuxjourney.com/lesson/the-shell](https://linuxjourney.com/lesson/the-shell).
 
 ### Navigation Commands:
 - `pwd`: Displays the current directory path.
