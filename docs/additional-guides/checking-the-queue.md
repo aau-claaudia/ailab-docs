@@ -3,7 +3,7 @@ When using the cluster, you typically wish to see an overview of what is current
 The command `squeue` can be used to get a general overview:
 
 !!! example annotate
-    ==NEED TO BE UPDATED TO AI STUDENT CLOUD SPECIFICS==
+    ==NEED TO BE UPDATED TO AI Lab SPECIFICS==
 
         squeue
 

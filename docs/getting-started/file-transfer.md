@@ -1,8 +1,8 @@
 # File transfer
 ===+ "Windows"
-	For Windows users we recommend using the application [WinSCP](https://winscp.net/eng/docs/lang:da) to transfer files from your local computer to AI Student Cloud. Other popular solutions are [PuTTY](https://www.putty.org/) and [FileZilla](https://filezilla-project.org/). Alternatively, you can install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui) to be able to use the `scp` command, shown for [Linux/MacOS](/getting-started/file-transfer/#__tabbed_1_2) users.
+	For Windows users we recommend using the application [WinSCP](https://winscp.net/eng/docs/lang:da) to transfer files from your local computer to AI Lab. Other popular solutions are [PuTTY](https://www.putty.org/) and [FileZilla](https://filezilla-project.org/). Alternatively, you can install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui) to be able to use the `scp` command, shown for [Linux/MacOS](/getting-started/file-transfer/#__tabbed_1_2) users.
 
-	When you open WinSCP, you will be welcomed by a 'Login' modal. Follow the instructions in the image above to establish a connection to the server. You can now drag and drop files between your local computer and the AI Student Cloud platform.
+	When you open WinSCP, you will be welcomed by a 'Login' modal. Follow the instructions in the image above to establish a connection to the server. You can now drag and drop files between your local computer and the AI Lab platform.
 
 	![Screenshot of WinSCP setup](/assets/img/winscp-setup.png)
 	
@@ -13,7 +13,7 @@
 
 ===+ "Linux/MacOS"
 
-	You can transfer files to/from AI Student Cloud using the command line utility
+	You can transfer files to/from AI Lab using the command line utility
 	`scp` from your local computer.
 
 	!!! example
@@ -22,7 +22,7 @@
 		scp some-file xxxxxx@student.aau.dk@ai-fe02.srv.aau.dk:~
 		```
 		
-		where '~' means your user directory on AI Student Cloud. 
+		where '~' means your user directory on AI Lab. 
 
 		You can append directories after that to your destination:
 
@@ -33,7 +33,7 @@
 		==CHANGE ai-fe02.srv.aau.dk ADDRESS==
 
 
-	You can also copy in the opposite direction, e.g. from the AI Student Cloud platform to your local computer with:
+	You can also copy in the opposite direction, e.g. from the AI Lab platform to your local computer with:
 
 	!!! example
 

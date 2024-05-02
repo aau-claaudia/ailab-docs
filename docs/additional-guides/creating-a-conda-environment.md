@@ -10,7 +10,7 @@ To begin utilizing *cotainr*, you'll first need to download the latest release f
 wget https://github.com/DeiC-HPC/cotainr/archive/refs/tags/2023.11.0.zip
 ```
 
-You should now have `2023.11.0.zip` in your user directory on AI Student Cloud. Unzip it:
+You should now have `2023.11.0.zip` in your user directory on AI Lab. Unzip it:
 
 ```console
 unzip 2023.11.0.zip

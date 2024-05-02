@@ -121,7 +121,7 @@ You can also create data tables like this:
 ``` title="Custom HTML/CSS"
 <div>
     <p>
-        You can paste your own custom HTML/CSS as you would normal in a .html file
+        You can paste your own custom HTML/CSS as you would in a normal .html file
     </p>
 </div>
 ``` 
@@ -129,7 +129,7 @@ You can also create data tables like this:
 <div class="result" markdown>
 <div>
     <p>
-        You can paste your own custom HTML/CSS as you would normal in a .html file
+        You can paste your own custom HTML/CSS as you would in a normal .html file
     </p>
 </div>
 </div>

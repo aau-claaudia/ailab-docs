@@ -1,4 +1,4 @@
-You can launch a shell within a Singularity container, allowing you to interact with the container's environment by using the `shell` command:
+You can launch a shell within a Singularity container, allowing you to interact with the container's environment. Use the `shell` command with the desired image as follows
 
 !!! example
     ```console

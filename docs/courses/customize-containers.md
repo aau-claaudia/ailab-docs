@@ -13,7 +13,7 @@ srun singularity build --sandbox [sandbox-dir-name] [container image]
 ```
 where you replace `[sandbox-dir-name]` with a name you decide for the
 directory that holds your sandbox container, and replace `[container
-image]` with the name of a container image you already have in AI Student Cloud
+image]` with the name of a container image you already have in AI Lab
 (e.g. `pytorch_23.04-py3.sif`) or the URI of a container to download
 (e.g. `docker://nvcr.io/nvidia/pytorch:23.04-py3`).
 

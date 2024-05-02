@@ -36,28 +36,24 @@ nav:
       - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
       - "Running a container in interactive mode": "additional-guides/running-a-container-in-interactive-mode.md"
       - "Setting a time limit": additional-guides/setting-a-time-limit.md
-    - Creating containers:
-      - "Download containers from NGC": additional-guides/download-containers-from-ngc.md
+    - Getting and creating container images:
+      - "Building your own container image": additional-guides/building-your-own-container-image.md
+      - "Download images from NGC": additional-guides/download-images-from-ngc.md
       - "Creating a conda environment": additional-guides/creating-a-conda-environment.md
-      - "Download memory consuming containers":  additional-guides/download-memory-consuming-containers.md
+      - "Download memory consuming images":  additional-guides/download-memory-consuming-images.md
     - For lecturers:
       - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
       - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
 
   - Courses:
     - ""
-      #- "Customize Containers": courses/customize-containers.md
-      #- "Obtaining Memory Consuming Containers": courses/obtaining-memory-consuming-containers.md
-      #- "Obtaining Containers Faster": courses/obtaining-containers-faster.md
-      #- "Open a Shell in a Container": courses/open-a-shell-in-a-container.md
-
+    
 theme:
   name: material
   custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.instant
-    - navigation.expand
     - navigation.footer
     - content.code.copy
     - content.code.annotate

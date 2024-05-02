@@ -1,4 +1,4 @@
-You can download a large range of containers by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and check whether NVIDIA provides a container with the application you need.
+You can download a large range of images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and check whether NVIDIA provides an image with the application you need.
 
 ![Screenshot of NGC website](/assets/img/ngc.png)
 
@@ -6,17 +6,17 @@ As an example, this could be TensorFlow. You can search on NGC and find [TensorF
 
 ![Screenshot of NGC TensorFlow page](/assets/img/ngc-tf-detail.png)
 
-This copies a link to the container which we will use in the following example.
+This copies a link to the image which we will use in the following example.
 
 !!! example
 
-    We need to use Singularity to download the container and in order to run Singularity, we must run it through the Slurm queueing system using the command `srun`. 
+    We need to use Singularity to download the image and in order to run Singularity, we must run it through the Slurm queueing system using the command `srun`. 
 
-    To download the container to your AI Student Cloud instance paste the url to the image like so:
+    To download the image to your AI Lab instance paste the url to the image like so:
 
     `srun --mem 40G singularity pull docker://nvcr.io/nvidia/tensorflow:24.03-tf2-py3`
 
-    NOTE: The container could take ~20 minutes to download. 
+    NOTE: The image could take ~20 minutes to download. 
     
     The above example consists of the following parts:
 
@@ -24,17 +24,17 @@ This copies a link to the container which we will use in the following example.
     on a compute node.
     - `mem`: a Slurm command that allows you allocate memory to your
     process, in this case 40GB of memory. A higher amount of memory than the default is needed
-    specifically for this TensorFlow container. Please see [Download memory consuming containers](/additional-guides/download-memory-consuming-containers/) page for a better way to
+    specifically for this TensorFlow image. Please see [Download memory consuming images](/additional-guides/download-memory-consuming-images/) page for a better way to
     avoid excessive memory requirements.
     - `singularity pull`: the Singularity command which downloads a
-    specified container.
+    specified image.
     - `docker://nvcr.io/nvidia/tensorflow:24.03-tf2-py3`: this part of the
     command itself consists of two parts. `docker://` tells Singularity
-    that we are downloading a Docker container and Singularity
-    automatically converts this to a Singularity container upon
-    download. `nvcr.io/nvidia/tensorflow:24.03-tf2-py3` is container
+    that we are downloading a Docker image and Singularity
+    automatically converts this to a Singularity image upon
+    download. `nvcr.io/nvidia/tensorflow:24.03-tf2-py3` is image
     label copied from the NGC webpage which identifies the particular
-    container and version that we want.
+    image and version that we want.
 
 Once the `singularity pull` command has completed, you should have a
 file called `tensorflow_24.03-tf2-py3.sif` in your user directory (use
@@ -42,4 +42,4 @@ the command `ls` to see the files in your current directory).
 
 !!! warning "Work-around for memory-consuming downloads"
 
-      There is a workaround if you have problems downloading containers due to excessive memory requirements. See out guide: [Download memory consuming containers](/additional-guides/download-memory-consuming-containers).
+      There is a workaround if you have problems downloading images due to excessive memory requirements. See out guide: [Download memory consuming images](/additional-guides/download-memory-consuming-images).

@@ -1,7 +1,7 @@
 It is often desirable to monitor the resource status of the compute nodes when you wish to run a job. 
 
 !!! example annotate
-    ==NEED TO BE UPDATED TO AI STUDENT CLOUD SPECIFICS==
+    ==NEED TO BE UPDATED TO AI Lab SPECIFICS==
     The `sinfo` command shows basic information about partitions in the
     queue system and what the states of nodes in these partitions are.
 
@@ -12,7 +12,7 @@ It is often desirable to monitor the resource status of the compute nodes when y
         batch*             up       12:00:00          8       idle     a256-t4-[01-02],i256-a10-06,i256-a40-[01-02]...
         prioritized        up     6-00:00:00          8       idle     a256-t4-[01-02],i256-a10-06,i256-a40-[01-02]...
 
-1.  `PARTITION` In the context of the AI Student Cloud, partitions can be understood as distinct categories or groups of compute nodes, essentially serving as separate queues for jobs. Each partition defines a set of conditions under which jobs can access these nodes. It's possible for the same compute node to be a part of multiple partitions, like `batch` and `prioritized`. These will be explained later.
+1.  `PARTITION` In the context of AI Lab, partitions can be understood as distinct categories or groups of compute nodes, essentially serving as separate queues for jobs. Each partition defines a set of conditions under which jobs can access these nodes. It's possible for the same compute node to be a part of multiple partitions, like `batch` and `prioritized`. These will be explained later.
 2.  `AVAIL` shows the availability of the partition where "up" is normal, working state where you can submit jobs to it.
 3.  `TIMELIMIT` shows the time limit imposed by each partition in `HH:MM:SS` format.
 4.  `NODES` shows how many nodes are in the shown state in the specific partition.
@@ -23,7 +23,7 @@ It is often desirable to monitor the resource status of the compute nodes when y
 You can also use the command `scontrol show node` or `scontrol show node <node name>` to show details about all nodes or a specific node, respectively.
 
 !!! example
-    ==NEED TO BE UPDATED TO AI STUDENT CLOUD SPECIFICS==
+    ==NEED TO BE UPDATED TO AI Lab SPECIFICS==
     ```console
     scontrol show node a256-t4-01
 
@@ -40,7 +40,7 @@ The two commands `sinfo` and `scontrol show node` provide information
 which is either too little or way too much detail in most
 situations. As an alternative, we provide the tool `nodesummary` to
 show a hopefully more intuitive overview of the used/available
-resources in AI Student Cloud.
+resources in AI Lab.
 
-==SCREENSHOT NEED TO BE UPDATED TO AI STUDENT CLOUD SPECIFICS==
+==SCREENSHOT NEED TO BE UPDATED TO AI Lab SPECIFICS==
 ![Screenshot of `nodesummary` in use.](/assets/img/nodesummary.png)
