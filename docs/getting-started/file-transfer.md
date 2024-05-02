@@ -48,4 +48,7 @@
 	In general, file transfer tools that can use SSH as protocol should
 	work. A common choice is [FileZilla](https://filezilla-project.org/).
 
+### Project group directory
+==TODO==
+
 Now that you know the basics of file transfer, lets proceed to learn how to <span style="color: var(--md-primary-fg-color); font-weight: 700;"><a href="/getting-started/getting-applications">get applications :octicons-arrow-right-24:</a></span>

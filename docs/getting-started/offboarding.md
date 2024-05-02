@@ -12,8 +12,8 @@ rm benchmark_tensorflow.py
 
 Before deleting files, remember that you can [transfer files](/getting-started/file-transfer) from your AI-LAB directory to your local computer.
 
-!!! warning "Deletion of data at 1. July"
-    Every year at 1. July, all data and user information will be automatically removed from the AI-LAB platform. You will receive email notifications 2 months, 1 month, 14 days, and 2 day prior to the deletion date. It is important to ensure that you transfer any desired files from AI-LAB to your local computer before the deletion date.
+!!! warning "Deletion of data at 1. August"
+    Every year at 1. August, all data and user information will be automatically removed from the AI-LAB platform. You will receive email notifications 2 months, 1 month, 14 days, and 2 day prior to the deletion date. It is important to ensure that you transfer any desired files from AI-LAB to your local computer before the deletion date.
 
 !!! info "Apply for extension"
     Should you wish to keep your data on AI-LAB and use the platform for another semester, you can submit an extension request through the [application form](https://forms.office.com/e/caEhCRmqVN) for AI-LAB. Alternatively, you can apply for a new project.

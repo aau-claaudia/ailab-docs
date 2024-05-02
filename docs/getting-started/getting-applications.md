@@ -1,5 +1,5 @@
 # Getting applications
-To obtain applications on AI-LAB, you must utilize the container technology, [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html). 
+To obtain applications on AI-LAB, you must use container images. On AI-LAB we use the container technology, [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html)
 
 !!! info "What is an image?"
     An image is a static, portable file that contains all the components needed to run a piece of software, including the code, runtime, system tools, libraries, and settings. It serves as a blueprint for creating containers.
@@ -8,12 +8,9 @@ To obtain applications on AI-LAB, you must utilize the container technology, [Si
     A container is a runtime instance of an image that is executed and managed by Singularity. Containers provide an isolated environment to run applications, ensuring consistency and portability across different systems.
 
 ## Pre-downloaded images
-The most straightforward method to acquire applications on AI-LAB is by accessing pre-downloaded images stored within the platform. The default pre-downloaded images presently include [TensorFlow](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorflow) and [PyTorch](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch), located at ==PATH TO CLAAUDIA IMAGE DIRECTORY==. We aim to consistently update these images to the latest versions. 
-
-Additionally, you can explore further pre-downloaded images available in the *courses directory* ==PATH TO COURSES DIRECTORY== on AI-LAB.
+The most straightforward method to acquire applications on AI-LAB is by accessing pre-downloaded images stored in the `/container` directory. We aim to consistently update these images to the latest versions. You can find a list of the pre-downloaded container images [here](/system-overview/#list-of-pre-download-containers), or you can check which images exist in the `/container` directory on AI-LAB with `ls PATH TO CLAAUDIA IMAGE DIRECTORY`:
 
 !!! example
-    First, let's check out which images exist in ==PATH TO CLAAUDIA IMAGE DIRECTORY==:
 
     ```console
     ls PATH TO CLAAUDIA IMAGE DIRECTORY

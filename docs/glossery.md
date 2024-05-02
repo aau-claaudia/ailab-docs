@@ -23,4 +23,4 @@ The Slurm queue system is AI-LABs job scheduling and management tool commonly us
 An image is a static, portable file that contains all the components needed to run a piece of software, including the code, runtime, system tools, libraries, and settings. It serves as a blueprint for creating containers.
 
 #### Container
-A container is a runtime instance of an image that is executed and managed by Singularity. Containers provide an isolated environment to run applications, ensuring consistency and portability across different systems. Read more about containers here.
+A container is a runtime instance of an image that is executed and managed by Singularity. Containers provide an isolated environment to run applications, ensuring consistency and portability across different systems.

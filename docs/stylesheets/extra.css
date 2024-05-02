@@ -133,7 +133,6 @@ code .go, code {
   position: relative;
   background: white;
   margin-top: 20px;
-  padding: 30px;
   font-family: 'Roboto Mono', monospace;
   font-size: .85rem;
   font-weight: 400;
@@ -148,7 +147,7 @@ code .go, code {
   }
   
   .fa-folder-open, .fa-folder {
-    color: #007bff;
+    color: var(--md-typeset-a-color);
   }
   
   .fa-html5 {
@@ -156,7 +155,6 @@ code .go, code {
   }
   
   ul {
-    padding-left: 5px;
     list-style: none;
     margin-bottom: 0 !important;
     margin-top: 0 !important;

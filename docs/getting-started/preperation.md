@@ -10,6 +10,14 @@ Before diving into AI-LAB, it's essential to make sure you're equipped with the 
 !!! custom "<span class="custom-callout-icon">:material-scale-balance: Review Guidelines</span>"
     Before proceeding, we strongly recommend reviewing our [Guidelines](/guidelines) to ensure a smooth and productive experience for both yourself and other users of AI-LAB.
 
+    #### The main takeaways:
+
+    1. All data and user information on AI-LAB is deleted annually on August 1. [Read more](/guidelines/#1-data-deletion-and-extension-policies).
+    2. You are not allowed to work with [type 2 and 3](https://www.security.aau.dk/data-classification) sensitive data on AI-LAB. [Read more](/guidelines/#2-not-for-confidential-or-sensitive-data).
+    3. Jobs running over 12 hours are automatically cancelled. [Read more](/guidelines/#4-jobs-can-run-no-longer-than-12-hours).
+
+
+
 With these preparations in place, <span style="color: var(--md-primary-fg-color); font-weight: 700;"><a href="/getting-started/login/">Lets get started :octicons-arrow-right-24:</a></span>
 
 
