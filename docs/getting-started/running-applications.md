@@ -6,7 +6,6 @@ Slurm is a job scheduling system and is used to allocate resources, manage user 
 
 The simplest way to run a job via Slurm is to use the command `srun`.
 
-
 !!! info inline end "Checking the queue"
     Before running a job you typically wish to see an overview of what is currently in the queue. For example to see how many jobs might be waiting ahead of you or to get an overview of your own jobs. We recommend looking at our guide [Checking the queue](/additional-guides/checking-the-queue) to get familiar with Slurm queue commands.
 
@@ -39,7 +38,12 @@ The primary role of AI-LAB is to run software that utilises one or more GPUs for
 
 Let's try running a small Python script that performs a simple matrix multiplication of random data to benchmark TensorFlow computing speed:
 
-Download <a href="/assets/scripts/benchmark_tensorflow.py" download="benchmark_tensorflow.py">benchmark_tensorflow.py</a> and copy it from your local computer to your user directory on AI-LAB using the `scp` command or `WinSCP` (see [Step 2: File Transfer](/getting-started/file-transfer)):
+Copy `benchmark_tensorflow.py` from `/course/ailab-docs-files` to your user directory:
+
+```console
+scp course/ailab-docs-files/benchmark_tensorflow.py ~\ 
+```
+==EDIT==
 
 #### Execute job without GPU
 Now, lets first try executing `benchmark_tensorflow.py` without allocating a GPU:

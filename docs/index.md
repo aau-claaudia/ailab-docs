@@ -1,3 +1,7 @@
+---
+keywords: Home
+---
+
 <div id="service-window-warning" style="display: none;" markdown>
 !!! warning "<span id="time-to-window"></span> to the next service window"
 
@@ -7,62 +11,44 @@
 
 </div>
 
-# Welcome to AI-LAB documentation
-
-Welcome to the AI-LAB documentation, a guide designed to help Aalborg University students delve into powerful computing projects using AI-LAB. Before [getting started](getting-started/preperation.md) we recommend getting an [overview](system-overview.md) of the system behind AI-LAB and reading our [Guidelines](guidelines.md).
-
-<br>
-
-<div class="grid cards" markdown>
-
--   :octicons-server-24:{ .lg .middle } __System overview__
-
-    ---
-
-    The Architecture of AI-LAB
-
-    [:octicons-arrow-right-24: System overview](/system-overview)
-
--   :material-scale-balance:{ .lg .middle } __Guidelines__
-
-    ---
-
-    Best practices for using AI-LAB
-
-    [:octicons-arrow-right-24: Guidelines](/guidelines)
-
--   :octicons-rocket-24:{ .lg .middle } __Getting Started__
-
-    ---
-
-    Step-by-step guide to AI-LAB
-
-    [:octicons-arrow-right-24: Getting Started](/getting-started/preperation)
-
--   :material-lightbulb-outline:{ .lg .middle } __Courses__
-
-    ---
-
-    AI-LAB applications courses
-
-    [:octicons-arrow-right-24: Courses](/courses/==UPDATE LINK==)
-
+<div class="landing">
+    <div class="landing-inner">
+        <div style="grid-area: landingSplashText;">
+            <h1 style="color: #fff !important;">AI-LAB documentation</h1>
+            <h3 style="color: #fff !important; font-weight: 400" class="landing-subtitle">
+                Welcome to the AI-LAB documentation, a guide designed to help Aalborg University students delve into powerful computing projects using AI-LAB.
+            </h3>
+        </div>
+        <div class="landing-bottom-row" style="grid-area: landingSplashCta;">
+            <a href="/getting-started/preperation"class="getstarted-button">Get started</a>
+            <a href="/guidelines" class="guidelines-button">Read the guidelines</a>
+        </div>
+    </div>
 </div>
 
 <br>
 
-### What is AI-LAB?
+## What is AI-LAB?
 AI-LAB is designed exclusively for students at Aalborg University, offering [high-performance computing (HPC)](https://www.researcher.aau.dk/guides/research-data/high-performance-computing/introduction-to-hpc) right at your fingertips. Think of it as a mini supercomputer, packed with GPUs, making it a perfect playground for training [deep learning](/glossery/#deep-learning) models, running simulations, and performing high-speed data analysis.
 
 This platform is home to an extensive collection of [GPU resources](/system-overview/#overview-of-compute-nodes), tailored specifically for machine learning tasks. Whether you're working on image recognition, deep learning tasks, or data processing, AI-LAB is equipped to handle vast processes that benefit from [parallel computing](/glossery/#parallel-computing).
 
-!!! custom "<span class="custom-callout-icon">:octicons-goal-24: Purpose</span>"
-    AI-LAB isn't just about providing hardware; it's about opening the door to high-performance computing for students, with an educational twist. From simulations to deep learning, it supports a large number of applications, all while fostering an environment where students can experiment, learn, and grow their computational skills.
-
 !!! custom "<span class="custom-callout-icon">:octicons-lock-24: How to access</span>"
-    First you need to fill out an [application form](https://forms.office.com/e/caEhCRmqVN) to request for access. After getting approval, you can access AI-LAB using a terminal application from your local computer. We will guide you through all this in [Getting Started](/getting-started/preperation).
+    First you need to fill out an [application form](https://forms.office.com/e/caEhCRmqVN) to request for access. It can take up to 24 hours before you can access AI-LAB. After getting approval, you can access AI-LAB using a terminal application from your local computer. We will guide you through all this in [Getting Started](/getting-started/preperation).
 
-!!! custom "<span class="custom-callout-icon">:octicons-people-24: Who manage AI-LAB</span>"
-    AI-LAB is managed by the [CLAAUDIA](https://www.researcher.aau.dk/contact/claaudia) team. CLAAUDIA is a specialized team within ITS at Aalborg University focused on research data support, particularly skilled in leveraging high-performance computing and cloud resources such as AI-LAB. They offer [support](/support) and consultations to help students and researchers navigate through options for utilizing supercomputing resources effectively.
+<br>
+
+## Stay up-to-date
+
+!!! custom old "14-06-2024 - Launch"
+    Official Launch of AI-LAB!
+
+!!! custom old red "01-10-2024 - Service window"
+    At 1. October 2024, a scheduled maintenance will be conducted on AI-LAB. The routine maintenance will occur between <span style="font-weight: bold;">00:01 and 23:59</span>. AI-LAB will be unavailable throughout most of that day. Read more [here](/guidelines/#8-scheduled-maintenance).
+
+!!! custom old red "01-08-2025 - Data deletion"
+    At 1. August 2025, all data and user information will be automatically removed from the AI-LAB platform if you haven't submitted an extions request. Read more [here](/guidelines/#1-data-deletion-and-extension-policies).
+
+
 
 <script src="javascripts/serviceWindow.js"></script>

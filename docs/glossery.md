@@ -1,3 +1,5 @@
+# Glossery
+
 #### HPC
 High-performance computing (HPC) uses powerful resources to perform complex, data-intensive tasks beyond a single computer's capacity. HPC systems include multiple processors, large memory, and specialized networking for rapid data exchange. Researchers can simulate, model, and analyse data at unprecedented speed and scale.
 

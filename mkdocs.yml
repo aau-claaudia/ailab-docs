@@ -1,9 +1,9 @@
 # Project information
-site_name: AI Student Cloud Documentation
+site_name: AI-LAB Documentation
 site_url: #TODO: update
 site_author: CLAAUDIA, ITS, Aalborg University
 site_description: >-
-  Documentation for AI Student Cloud, a powerful computing platform available to students at Aalborg University, designed to support intensive computational tasks, particularly those involving machine learning.
+  Documentation for AI-LAB, a powerful computing platform available to students at Aalborg University, designed to support intensive computational tasks, particularly those involving machine learning.
 
 # Repository
 repo_name: aau-claaudia/ai-student-cloud-docs  #TODO: update 
@@ -13,46 +13,46 @@ repo_url: #TODO: update
 copyright: Copyright &copy; 2024 CLAAUDIA
 
 nav:
-  - Home:
-    - Home: index.md
-    - System overview: system-overview.md
-    - Guidelines: guidelines.md
-    - FAQ: faq.md
-    - Glossery: glossery.md
-    - Support: support.md
-      
-  - Getting started:
-    - "1. Preperation": getting-started/preperation.md
-    - "2. Login": getting-started/login.md
-    - "3. File transfer": getting-started/file-transfer.md
-    - "4. Getting applications": getting-started/getting-applications.md
-    - "5. Running applications": getting-started/running-applications.md
-    - "6. Offboarding": getting-started/offboarding.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">home</span>Home</span>: index.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">settings</span>System overview</span>: system-overview.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">developer_guide</span>Guidelines</span>: guidelines.md
+  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">rocket_launch</span>Getting started</span>:
+    - "Preperation": getting-started/preperation.md
+    - "Login": getting-started/login.md
+    - "File transfer": getting-started/file-transfer.md
+    - "Getting applications": getting-started/getting-applications.md
+    - "Running applications": getting-started/running-applications.md
+    - "Offboarding": getting-started/offboarding.md
+  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">code_blocks</span>Useful commands</span>:
+    - "Terminal basics": additional-guides/terminal-basics.md
+    - "Checking the queue": additional-guides/checking-the-queue.md
+    - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
+    - "Running a container in interactive mode": "additional-guides/running-a-container-in-interactive-mode.md"
+    - "Setting a time limit": additional-guides/setting-a-time-limit.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">package_2</span>Getting container images</span>:
+    - "Building your own container image": additional-guides/building-your-own-container-image.md
+    - "Download images from NGC": additional-guides/download-images-from-ngc.md
+    - "Creating a conda environment": additional-guides/creating-a-conda-environment.md
+    - "Download memory consuming images":  additional-guides/download-memory-consuming-images.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">note_stack</span>Application guides</span>:
+    - "MATLAB":  additional-guides/application-guides/matlab.md
+    - "ImageMagick":  additional-guides/application-guides/imagemagick.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">school</span>Courses</span>:
+    - "Customize containers": courses/customize-containers.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">edit_note</span>For lecturers</span>:
+    - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
+    - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
 
-  - Additional guides:
-    - Useful commands:
-      - "Terminal basics": additional-guides/terminal-basics.md
-      - "Checking the queue": additional-guides/checking-the-queue.md
-      - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
-      - "Running a container in interactive mode": "additional-guides/running-a-container-in-interactive-mode.md"
-      - "Setting a time limit": additional-guides/setting-a-time-limit.md
-    - Getting and creating container images:
-      - "Building your own container image": additional-guides/building-your-own-container-image.md
-      - "Download images from NGC": additional-guides/download-images-from-ngc.md
-      - "Creating a conda environment": additional-guides/creating-a-conda-environment.md
-      - "Download memory consuming images":  additional-guides/download-memory-consuming-images.md
-    - For lecturers:
-      - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
-      - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
+  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">quiz</span>FAQ</span>: faq.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">dictionary</span>Glossery</span>: glossery.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">help</span>Support</span>: support.md
 
-  - Courses:
-    - ""
+
     
 theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.tabs
     - navigation.instant
     - navigation.footer
     - content.code.copy
@@ -98,6 +98,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/claaudia/

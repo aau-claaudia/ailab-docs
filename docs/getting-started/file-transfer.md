@@ -13,8 +13,7 @@
 
 ===+ "Linux/MacOS"
 
-	You can transfer files to/from AI-LAB using the command line utility
-	`scp` from your local computer.
+	You can transfer files to/from AI-LAB using the command line utility `scp` from your local computer.
 
 	!!! example
 
