@@ -1,4 +1,4 @@
 # AI-LAB Documentation
 
-Documentation: [https://aau-claaudia.github.io/ailab-docs/](https://aau-claaudia.github.io/ailab-docs/)
+Documentation: [https://ailab-docs.claaudia.aau.dk/](https://ailab-docs.claaudia.aau.dk/)
 
