@@ -1,3 +1,8 @@
+---
+title: Support
+---
+
+
 # Support
 
 The platform offers support through the [CLAAUDIA team](https://www.researcher.aau.dk/contact/claaudia). We can help you diagnose and resolve general issues you might encounter while using AI-LAB. For all questions and requests related to the availability, use and troubleshooting of AI-LAB, please contact us through the [AAU service portal](https://www.serviceportal.aau.dk/) and refer to CLAAUDIA in the subject. 

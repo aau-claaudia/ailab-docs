@@ -1,3 +1,7 @@
+---
+title: FAQ
+---
+
 # FAQ
 
 !!! question "Who manage AI-LAB?"

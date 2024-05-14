@@ -25,6 +25,9 @@
   font-weight: bold;
   color: rgb(40, 64, 169) !important;
 }
+.md-nav__link--active .md-ellipsis .custom-nav-item {
+  color: rgb(40, 64, 169) !important;
+}
 .md-nav__item--section>.md-nav__link {
   display: none;
 }
@@ -83,7 +86,7 @@
   font-size: 14px !important;
   line-height: 21.8px !important;
 }
-code .go, code {
+code .go, code, pre {
   font-size: 12px !important;
   color: rgb(54, 70, 78) !important;
 }

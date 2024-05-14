@@ -1,3 +1,7 @@
+---
+title: System overview
+---
+
 # System overview
 
 The AI-LAB platform is built around several key components, including a front-end node for managing tasks and code, a robust queue system for scheduling jobs, file storage that is accessible from all nodes, and versatile compute nodes equipped with diverse hardware options.

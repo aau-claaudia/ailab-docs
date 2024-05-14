@@ -1,3 +1,7 @@
+---
+title: Guidelines
+---
+
 # Guidelines
 
 AI-LAB is a service made available to all AAU students. The platform consists of shared hardware, and this only works if the users use the platform as intended. This is why we ask you to consider the following use guidelines.

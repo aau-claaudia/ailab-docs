@@ -39,6 +39,7 @@ nav:
     - "ImageMagick":  additional-guides/application-guides/imagemagick.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">school</span>Courses</span>:
     - "Customize containers": courses/customize-containers.md
+    - "Checkpointing": courses/checkpointing.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">edit_note</span>For lecturers</span>:
     - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
     - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
@@ -46,8 +47,6 @@ nav:
   - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">quiz</span>FAQ</span>: faq.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">dictionary</span>Glossery</span>: glossery.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">help</span>Support</span>: support.md
-
-
     
 theme:
   name: material

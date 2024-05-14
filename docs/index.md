@@ -1,5 +1,6 @@
 ---
 keywords: Home
+title: Home
 ---
 
 <div id="service-window-warning" style="display: none;" markdown>
