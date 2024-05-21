@@ -1,13 +1,16 @@
 # Preperation
 Before diving into AI-LAB, it's essential to make sure you're equipped with the necessary tools and knowledge to make the most out of your experience. Here's a brief overview to get you started:
 
-!!! custom "<span class="custom-callout-icon">:octicons-terminal-16: Terminal Basics</span>"
-    AI-LAB is accessed and managed primarily through the terminal. If you're new to working with the command line interface, we recommend to check [Terminal Basics](/additional-guides/terminal-basics) to get started.
+!!! custom old "<span class="custom-callout-icon">:material-wifi: Only accessible on AAU Network</span>"
+    AI-LAB is only directly accessible when being on the AAU network (including [VPN](https://www.en.its.aau.dk/instructions/vpn) or AAU's [SSH gateway](https://www.en.its.aau.dk/instructions/ssh)).
 
-!!! custom "<span class="custom-callout-icon">:material-microsoft-windows: Windows users</span>"
+!!! custom old "<span class="custom-callout-icon">:octicons-terminal-16: Terminal Basics</span>"
+    In practice, working in AI-LAB primarily takes place via a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface). If you're new to working with the command-line interface, we recommend to check our guide [Terminal Basics](/additional-guides/terminal-basics) to get started.
+
+!!! custom old "<span class="custom-callout-icon">:material-microsoft-windows: Windows users</span>"
     You'll need to use ^^[Windows PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview?)^^ to follow our documentation effectively. Alternatively, you can install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui) or install a subsystem for Linux.
 
-!!! custom "<span class="custom-callout-icon">:material-scale-balance: Review Guidelines</span>"
+!!! custom old "<span class="custom-callout-icon">:material-scale-balance: Review Guidelines</span>"
     Before proceeding, we strongly recommend reviewing our [Guidelines](/guidelines) to ensure a smooth and productive experience for both yourself and other users of AI-LAB.
 
     #### The main takeaways!

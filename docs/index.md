@@ -30,7 +30,7 @@ title: Home
 <br>
 
 ## What is AI-LAB?
-AI-LAB is designed exclusively for students at Aalborg University, offering [high-performance computing (HPC)](https://www.researcher.aau.dk/guides/research-data/high-performance-computing/introduction-to-hpc) right at your fingertips. Think of it as a mini supercomputer, packed with GPUs, making it a perfect playground for training [deep learning](/glossery/#deep-learning) models, running simulations, and performing high-speed data analysis.
+AI-LAB is designed exclusively for students at Aalborg University, offering [high-performance computing (HPC)](https://www.researcher.aau.dk/guides/research-data/high-performance-computing/introduction-to-hpc) right at your fingertips. Think of it as a mini supercomputer, packed with GPUs, making it a perfect playground for training [deep learning](/glossery/#deep-learning) models, running simulations, and performing high-speed data analysis. 
 
 This platform is home to an extensive collection of [GPU resources](/system-overview/#overview-of-compute-nodes), tailored specifically for machine learning tasks. Whether you're working on image recognition, deep learning tasks, or data processing, AI-LAB is equipped to handle vast processes that benefit from [parallel computing](/glossery/#parallel-computing).
 

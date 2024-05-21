@@ -3,18 +3,11 @@ When using the cluster, you typically wish to see an overview of what is current
 The command `squeue` can be used to get a general overview:
 
 !!! example annotate
-    ==NEED TO BE UPDATED TO AI Lab SPECIFICS==
 
         squeue
 
         JOBID(1) PARTITION(2)		NAME(3)	 USER(4) ST(5) TIME(6)	NODES(7) NODELIST(REASON)(8)
-        31623	     batch		    DRSC xxxxxxxx     R	6:45:14		    1         i256-a10-10
-        31693	     batch      singular yyyyyyyy     R	  24:20		    1         i256-a40-01
-        31694	     batch      singular yyyyyyyy     R	  24:20		    1         i256-a40-01
-        31695	     batch      singular yyyyyyyy     R	  24:20		    1         i256-a40-01
-        31696	     batch      singular yyyyyyyy     R	  24:20		    1         i256-a40-01
-        31502    prioritiz       runQHGK.zzzzzzzz    PD	   0:00		    1        (Dependency)
-        31504    prioritiz       runQHGK.zzzzzzzz    PD	   0:00		    1        (Dependency)
+           42	       gpu      interact xxxxxxxx     R	6:45:14		    1         ailab-l4-01
 
 1.  `JOBID` shows the ID number of each job in queue.
 2.  `PARTITION` shows which partition each job is running in.

@@ -10,6 +10,9 @@
 .md-typeset a:hover {
   color: #303fa1;
 }
+.md-typeset mark {
+  background-color: var(--md-code-hl-color--light);
+}
 .md-nav__link {
   display: flex;
   align-items: center ;

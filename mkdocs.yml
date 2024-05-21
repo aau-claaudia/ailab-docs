@@ -18,7 +18,7 @@ nav:
   - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">rocket_launch</span>Getting started</span>:
     - "Preperation": getting-started/preperation.md
     - "Login": getting-started/login.md
-    - "File transfer": getting-started/file-transfer.md
+    - "File management": getting-started/file-management.md
     - "Getting applications": getting-started/getting-applications.md
     - "Running applications": getting-started/running-applications.md
     - "Offboarding": getting-started/offboarding.md
@@ -31,19 +31,16 @@ nav:
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">package_2</span>Getting container images</span>:
     - "Building your own container image": additional-guides/building-your-own-container-image.md
     - "Download images from NGC": additional-guides/download-images-from-ngc.md
-    - "Creating a conda environment": additional-guides/creating-a-conda-environment.md
-    - "Download memory consuming images":  additional-guides/download-memory-consuming-images.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">note_stack</span>Application guides</span>:
-    - "MATLAB":  additional-guides/application-guides/matlab.md
-    - "ImageMagick":  additional-guides/application-guides/imagemagick.md
+    - "Jupyter Notebook": application-guides/jupyter-notebook.md
+    - "MATLAB": application-guides/matlab.md
+    - "ImageMagick": application-guides/imagemagick.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">school</span>Courses</span>:
-    - "Customize containers": courses/customize-containers.md
     - "Checkpointing": courses/checkpointing.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">edit_note</span>For lecturers</span>:
+  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">edit_note</span>For lecturers</span>:
     - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
     - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
-
-  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">quiz</span>FAQ</span>: faq.md
+  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">quiz</span>FAQ</span>: faq.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">dictionary</span>Glossery</span>: glossery.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">help</span>Support</span>: support.md
     

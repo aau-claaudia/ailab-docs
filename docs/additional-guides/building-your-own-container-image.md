@@ -19,6 +19,7 @@ From: ubuntu:20.04
     # Update package list and install the latest Python and pip version
     apt-get update
     apt-get install -y python3 python3-pip
+    pip install numpy pandas scikit-learn matplotlib
 
 %test
     # Define tests to run after the container is built
@@ -27,7 +28,7 @@ From: ubuntu:20.04
 
 In this example we will use `docker` to pull `ubuntu:20.04` as the base OS of our image. 
 
-In the next section,`%post`, we can define commands that will be executed after the base OS has been installed. In this example, we will update the container and install `python3` and `pip`. 
+In the next section,`%post`, we can define commands that will be executed after the base OS has been installed. In this example, we will update the container and install `python3` and `pip` along with `numpy pandas scikit-learn matplotlib` packages. 
 
 After that we can define commands to run after the container is built in the `%test` section. Lets try with `python3 --version`.
 
@@ -44,5 +45,11 @@ srun --mem 40G singularity build --fakeroot python3.sif python3.def
 `--mem 40G` is a Slurm command that allows you allocate memory to your process, in this case 40GB of memory. A higher amount of memory than the default is needed for some container builds. 
 
 After some time you should  see the `Python X.X.X` version be printed in the terminal, and you should now have a `python3.sif` image ready to run.
+
+Lets for example print the matplotlib version:
+
+```console
+srun singularity exec python3.sif python3 -c "import matplotlib; print('Matplotlib version:', matplotlib.__version__)"
+```
 
 You can find more information about building containers from Singularity definition files [here](https://docs.sylabs.io/guides/3.0/user-guide/definition_files.html).

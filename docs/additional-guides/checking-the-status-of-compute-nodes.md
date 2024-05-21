@@ -7,10 +7,11 @@ It is often desirable to monitor the resource status of the compute nodes when y
 
         sinfo
           
-        PARTITION (1)   AVAIL (2)  TIMELIMIT (3)  NODES (4)  STATE (5) NODELIST (6)
-        batch*             up       12:00:00          1        mix     nv-ai-04
-        batch*             up       12:00:00          8       idle     a256-t4-[01-02],i256-a10-06,i256-a40-[01-02]...
-        prioritized        up     6-00:00:00          8       idle     a256-t4-[01-02],i256-a10-06,i256-a40-[01-02]...
+        PARTITION (1)   AVAIL (2)  TIMELIMIT (3)  NODES (4)  STATE (5)                   NODELIST (6)
+        gpu*               up       12:00:00         11       idle               ailab-l4-[01-11]
+        l4                 up       12:00:00         11       idle               ailab-l4-[01-11]
+        vmware             up          10:00          4       idle                  vmware[01-04]
+        all                up           5:00         15       idle ailab-l4-[01-11],vmware[01-04]
 
 1.  `PARTITION` In the context of AI Lab, partitions can be understood as distinct categories or groups of compute nodes, essentially serving as separate queues for jobs. Each partition defines a set of conditions under which jobs can access these nodes. It's possible for the same compute node to be a part of multiple partitions, like `batch` and `prioritized`. These will be explained later.
 2.  `AVAIL` shows the availability of the partition where "up" is normal, working state where you can submit jobs to it.
@@ -23,17 +24,14 @@ It is often desirable to monitor the resource status of the compute nodes when y
 You can also use the command `scontrol show node` or `scontrol show node <node name>` to show details about all nodes or a specific node, respectively.
 
 !!! example
-    ==NEED TO BE UPDATED TO AI Lab SPECIFICS==
     ```console
-    scontrol show node a256-t4-01
+    scontrol show node ailab-l4-04
 
-    NodeName=a256-t4-01 Arch=x86_64 CoresPerSocket=16
-    CPUAlloc=12 CPUTot=64 CPULoad=0.50
+    NodeName=ailab-l4-04 Arch=x86_64 CoresPerSocket=32
+    CPUAlloc=0 CPUTot=128 CPULoad=2.00
     AvailableFeatures=(null)
     ActiveFeatures=(null)
-    Gres=gpu:t4:6
-    NodeAddr=172.21.212.130 NodeHostName=a256-t4-01.srv.aau.dk Version=21.08.8-2
-    OS=Linux 5.4.0-170-generic #188-Ubuntu SMP Wed Jan 10 09:51:01 UTC 2024
+    Gres=gpu:l4:8(S:0-1)
     ...
     ```
 The two commands `sinfo` and `scontrol show node` provide information
