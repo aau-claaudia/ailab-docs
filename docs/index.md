@@ -44,9 +44,6 @@ This platform is home to an extensive collection of [GPU resources](/system-over
 !!! custom old "14-06-2024 - Launch"
     Official Launch of AI-LAB!
 
-!!! custom old red "01-10-2024 - Service window"
-    At 1. October 2024, a scheduled maintenance will be conducted on AI-LAB. The routine maintenance will occur between <span style="font-weight: bold;">00:01 and 23:59</span>. AI-LAB will be unavailable throughout most of that day. Read more [here](/guidelines/#8-scheduled-maintenance).
-
 !!! custom old red "01-08-2025 - Data deletion"
     At 1. August 2025, all data and user information will be automatically removed from the AI-LAB platform if you haven't submitted an extions request. Read more [here](/guidelines/#1-data-deletion-and-extension-policies).
 
