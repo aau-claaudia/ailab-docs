@@ -64,7 +64,8 @@ You now have a basic understanding of how to run jobs on AI-LAB using Slurm and 
     #### Checking the status of compuite nodes
     It is often desirable to monitor the resource status of the compute nodes when you wish to run a job. We recommend looking at our guide [Checking the status of compute nodes](/additional-guides/checking-the-status-of-compute-nodes) to get familiar with Slurm queue commands.
 
-
+    #### Checkpointing
+    Checkpointing is a technique used to ensure that your computational jobs can be resumed from a previously saved state in case of interruptions or failures. This [guide](/application-guides/checkpointing) outlines how to implement and use checkpointing effectively within your jobs using Python, TensorFlow and PyTorch.
 
 <!-- NOT RELEVANT FOR NOW WITH ONLY L4 GPUS
 #### Execute with specific GPU

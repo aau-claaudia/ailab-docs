@@ -86,8 +86,7 @@
 .admonition p, details p, .md-typeset ul li, details ol, .info ol li, li {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 14px !important;
-  line-height: 21.8px !important;
+  font-size: 16px !important;
 }
 code .go, code, pre {
   font-size: 12px !important;

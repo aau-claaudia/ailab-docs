@@ -35,11 +35,13 @@ nav:
     - "Jupyter Notebook": application-guides/jupyter-notebook.md
     - "MATLAB": application-guides/matlab.md
     - "ImageMagick": application-guides/imagemagick.md
+    - "Checkpointing": application-guides/checkpointing.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">school</span>Courses</span>:
-    - "Checkpointing": courses/checkpointing.md
+    - "": ""
   - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">edit_note</span>For lecturers</span>:
     - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
     - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
+    - "Compute node reservation": additional-guides/for-lecturers/compute-node-reservation.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">quiz</span>FAQ</span>: faq.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">dictionary</span>Glossery</span>: glossery.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">help</span>Support</span>: support.md

@@ -109,7 +109,7 @@ flowchart LR
     #### Overview of compute nodes
     AI-LAB currently include the following compute nodes:
 
-    | Node name        | CPU                           | System RAM | GPU                             |
-    | ---------------- | ----------------------------- | ---------- |  ------------------------------ |
-    | ailab-l4-[01-11] | ==2x AMD EPYC 7302 16-core==  | ==256GB==  | ==8x NVIDIA L4 GPUs, 16GB RAM== |
-    | ................ | ............................  | .......... | ............................... |
+    | Node name        | CPU                             | GPU                           |
+    | ---------------- | ------------------------------- | ----------------------------- |
+    | ailab-l4-[01-11] | AMD EPYC 7543 32-Core Processor | 8 NVIDIA L4 GPUs  24GB memory |
+    | ................ | ............................... | ............................. |

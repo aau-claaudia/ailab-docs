@@ -1,3 +1,6 @@
+srun singularity exec tensorflow_24.03-tf2-py3.sif jupyter notebook
+ssh -L 8888:a256-t4-03:8888 ry90cd@its.aau.dk@ai-fe02.srv.aau.dk
+
 This guide will show you how to start a Jupyter notebook on AI-LAB and access it in your browser.
 
 #### 1. Open a Terminal and Allocate a Compute Node
