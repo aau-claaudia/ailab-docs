@@ -38,11 +38,10 @@ To save the file press `CTRL + O` and enter a filename ending with `.def` and hi
 Now, lets build the container image from the definition file with the following command:
 
 ```console
-srun --mem 40G singularity build --fakeroot python3.sif python3.def
+srun singularity build --fakeroot python3.sif python3.def
 ```
 
 `--fakeroot` is added as a parameter as you must be the root user and cannot use `sudo` on AI Lab.
-`--mem 40G` is a Slurm command that allows you allocate memory to your process, in this case 40GB of memory. A higher amount of memory than the default is needed for some container builds. 
 
 After some time you should  see the `Python X.X.X` version be printed in the terminal, and you should now have a `python3.sif` image ready to run.
 

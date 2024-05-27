@@ -51,7 +51,7 @@ Let's try running a small Python script that performs a simple matrix multiplica
     Note that the above example allocate 1 GPU to the job. It is possible to allocate more, for example `--gres=gpu:2` for two GPUs. Software for computing on GPU is not necessarily able to utilise more than one GPU at a time. It is your responsibility to ensure that the software you run can indeed utilise as many GPUs as you allocate. It is not allowed to allocate more GPUs than your job can utilise.
 
 
-You now have a basic understanding of how to run jobs on AI-LAB using Slurm and Singularity. However, there are other [useful commands](/additional-guides/terminal-basics) that is worth exploring. We recommend to take a look at the following additional resources and checking the [Application guides](/application-guides/jupyter-notebook) for specific guides on various applications.
+You now have a basic understanding of how to run jobs on AI-LAB using Slurm and Singularity. We recommend to take a look at the [Additional guides](/additional-guides/terminal-basics) and checking the [Application guides](/application-guides/jupyter-notebook) for specific guides on various applications.
 
 !!! info old "Additional ressources"
 

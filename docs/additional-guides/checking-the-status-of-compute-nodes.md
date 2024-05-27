@@ -1,7 +1,6 @@
 It is often desirable to monitor the resource status of the compute nodes when you wish to run a job. 
 
 !!! example annotate
-    ==NEED TO BE UPDATED TO AI Lab SPECIFICS==
     The `sinfo` command shows basic information about partitions in the
     queue system and what the states of nodes in these partitions are.
 

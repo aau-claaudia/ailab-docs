@@ -22,17 +22,17 @@ nav:
     - "Getting applications": getting-started/getting-applications.md
     - "Running applications": getting-started/running-applications.md
     - "Offboarding": getting-started/offboarding.md
-  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">code_blocks</span>Useful commands</span>:
+  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">code_blocks</span>Additional guides</span>:
     - "Terminal basics": additional-guides/terminal-basics.md
     - "Checking the queue": additional-guides/checking-the-queue.md
     - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
     - "Running a container in interactive mode": "additional-guides/running-a-container-in-interactive-mode.md"
     - "Setting a time limit": additional-guides/setting-a-time-limit.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">package_2</span>Getting container images</span>:
     - "Building your own container image": additional-guides/building-your-own-container-image.md
     - "Download images from NGC": additional-guides/download-images-from-ngc.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">note_stack</span>Application guides</span>:
     - "Jupyter Notebook": application-guides/jupyter-notebook.md
+    - "Ollama and LLM": application-guides/ollama-and-llm.md
     - "MATLAB": application-guides/matlab.md
     - "ImageMagick": application-guides/imagemagick.md
     - "Checkpointing": application-guides/checkpointing.md

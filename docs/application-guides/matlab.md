@@ -6,6 +6,8 @@ First, copy the MATLAB container image from the container directory on AI-LAB to
 cp /ceph/container/matlab_r2024a.sif .
 ```
 
+It may take a few minutes to copy.
+
 Next, set the environment variable to specify the MATLAB license. In this case, point it to the AAU license server:
 
 ```console

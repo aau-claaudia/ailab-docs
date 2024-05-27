@@ -21,10 +21,12 @@ The most straightforward method to acquire container images on AI-LAB is by acce
     cp /ceph/container/tensorflow_24.03-tf2-py3.sif .
     ```
 
+    It may take a few minutes to copy.
+
 ### Download images
 Alternatively, you can access a wide array of images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and exploring whether NVIDIA provides a image for the application you require. Refer to our guide [here](/additional-guides/download-images-from-ngc) for detailed instructions.
 
-### Customize images
+### Build images
 You also have the flexibility to create your own images tailored to your specific environment requirements. Refer to our guide on [building your own container image](/additional-guides/building-your-own-container-image).
 
 
