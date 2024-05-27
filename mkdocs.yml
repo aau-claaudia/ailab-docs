@@ -27,6 +27,7 @@ nav:
     - "Checking the queue": additional-guides/checking-the-queue.md
     - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
     - "Running a container in interactive mode": "additional-guides/running-a-container-in-interactive-mode.md"
+    - "Run a bash script": additional-guides/run-a-bash-script.md
     - "Setting a time limit": additional-guides/setting-a-time-limit.md
     - "Building your own container image": additional-guides/building-your-own-container-image.md
     - "Download images from NGC": additional-guides/download-images-from-ngc.md

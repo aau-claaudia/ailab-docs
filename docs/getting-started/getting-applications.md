@@ -23,11 +23,13 @@ The most straightforward method to acquire container images on AI-LAB is by acce
 
     It may take a few minutes to copy.
 
-### Download images
-Alternatively, you can access a wide array of images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and exploring whether NVIDIA provides a image for the application you require. Refer to our guide [here](/additional-guides/download-images-from-ngc) for detailed instructions.
+!!! info old "Additional guides"
 
-### Build images
-You also have the flexibility to create your own images tailored to your specific environment requirements. Refer to our guide on [building your own container image](/additional-guides/building-your-own-container-image).
+    #### Download container images
+    Alternatively, you can access a wide array of images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and exploring whether NVIDIA provides a image for the application you require. Refer to our guide [here](/additional-guides/download-images-from-ngc) for detailed instructions.
+
+    #### Build your own container images
+    You also have the flexibility to create your own images tailored to your specific environment requirements. Refer to our guide on [building your own container image](/additional-guides/building-your-own-container-image).
 
 
 Now that you know how to obtain applications, let's delve into <span style="color: var(--md-primary-fg-color); font-weight: 700;"><a href="/getting-started/running-applications">running applications :octicons-arrow-right-24:</a></span>

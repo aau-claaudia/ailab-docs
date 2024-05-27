@@ -51,13 +51,16 @@ Let's try running a small Python script that performs a simple matrix multiplica
     Note that the above example allocate 1 GPU to the job. It is possible to allocate more, for example `--gres=gpu:2` for two GPUs. Software for computing on GPU is not necessarily able to utilise more than one GPU at a time. It is your responsibility to ensure that the software you run can indeed utilise as many GPUs as you allocate. It is not allowed to allocate more GPUs than your job can utilise.
 
 
-You now have a basic understanding of how to run jobs on AI-LAB using Slurm and Singularity. We recommend to take a look at the [Additional guides](/additional-guides/terminal-basics) and checking the [Application guides](/application-guides/jupyter-notebook) for specific guides on various applications.
+You now have a basic understanding of how to run jobs on AI-LAB using Slurm and Singularity. We recommend to take a look at the [Additional guides](/additional-guides/terminal-basics) for more usage examples. We highly recommend the following guides:
 
-!!! info old "Additional ressources"
+!!! info old "Additional guides"
 
     #### Running a container in interactive mode 
-    You can also run a container image in interactive mode by using `shell` instead of `exec`. See this [guide](/additional-guides/running-a-container-in-interactive-mode).
+    You can [run a container image in interactive mode](/additional-guides/running-a-container-in-interactive-mode) by using `shell` instead of `exec`.
    
+    #### Run a bash script
+    You can [submit a job to Slurm using a bash script](/additional-guides/run-a-bash-script) which is essentially a text file with a series of commands that you would normally type in the terminal. When executed, the script runs these commands in sequence.
+
     #### Checking the queue
     A good practice is to get an overview of what is currently in the queue before running a job. For example to see how many jobs might be waiting ahead of you or to get an overview of your own jobs. We recommend looking at our guide [Checking the queue](/additional-guides/checking-the-queue) to get familiar with Slurm queue commands.
 
