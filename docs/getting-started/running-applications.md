@@ -64,7 +64,7 @@ You now have a basic understanding of how to run jobs on AI-LAB using Slurm and 
     #### Checking the queue
     A good practice is to get an overview of what is currently in the queue before running a job. For example to see how many jobs might be waiting ahead of you or to get an overview of your own jobs. We recommend looking at our guide [Checking the queue](/additional-guides/checking-the-queue) to get familiar with Slurm queue commands.
 
-    #### Checking the status of compuite nodes
+    #### Checking the status of compute nodes
     It is often desirable to monitor the resource status of the compute nodes when you wish to run a job. We recommend looking at our guide [Checking the status of compute nodes](/additional-guides/checking-the-status-of-compute-nodes) to get familiar with Slurm queue commands.
 
     #### Checkpointing

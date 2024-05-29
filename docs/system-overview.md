@@ -4,6 +4,8 @@ title: System overview
 
 # System overview
 
+SOFTWARE INTEGRATION
+
 The AI-LAB platform is built around several key components, including a front-end node for managing tasks and code, a robust queue system for scheduling jobs, file storage that is accessible from all nodes, and versatile compute nodes equipped with diverse hardware options.
 
 In this overview, you will find a description of each major component of AI-LAB. Below, is a diagram illustrating the architecture of the AI-LAB platform.

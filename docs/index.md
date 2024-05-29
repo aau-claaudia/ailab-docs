@@ -39,6 +39,35 @@ This platform is home to an extensive collection of [GPU resources](/system-over
 
 <br>
 
+## Application guides
+
+<div class="app-grid-container">
+    <a class="app-grid-item" href="/application-guides/tensorflow">
+        <img src="/assets/img/tensorflow-logo.svg" alt="TensorFlow">
+        <p>TensorFlow</p>
+    </a>
+    <a class="app-grid-item" href="/application-guides/pytorch">
+        <img src="/assets/img/pytorch-logo.svg" alt="PyTorch">
+        <p>PyTorch</p>
+    </a>
+    <a class="app-grid-item" href="/application-guides/jupyter-notebook">
+        <img src="/assets/img/jupyter-logo.svg" alt="Jupyter">
+        <p>Jupyter</p>
+    </a>
+    <a class="app-grid-item" href="/application-guides/ollama-and-llm">
+        <img src="/assets/img/ollama-logo.svg" alt="Ollama">
+        <p>Ollama</p>
+    </a>
+    <a class="app-grid-item" href="/application-guides/matlab">
+        <img src="/assets/img/matlab-logo.svg" alt="MATLAB">
+        <p>MATLAB</p>
+    </a>
+    <a class="app-grid-item" href="/application-guides/imagemagick">
+        <img src="/assets/img/imagemagick-logo.svg" alt="ImageMagick">
+        <p>ImageMagick</p>
+    </a>
+</div>
+
 ## Stay up-to-date
 
 !!! custom old "14-06-2024 - Launch"

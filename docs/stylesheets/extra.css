@@ -399,3 +399,30 @@ code .go, code, pre {
 del {
   text-decoration: initial;
 }
+.app-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.app-grid-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.app-grid-item img {
+  height: 100px;
+  border-radius: 4px;
+}
+.app-grid-item p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.app-grid-item:hover {
+  transform: translateY(-2px);
+}

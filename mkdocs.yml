@@ -31,12 +31,15 @@ nav:
     - "Setting a time limit": additional-guides/setting-a-time-limit.md
     - "Building your own container image": additional-guides/building-your-own-container-image.md
     - "Download images from NGC": additional-guides/download-images-from-ngc.md
+    - "Checkpointing": additional-guides/checkpointing.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">note_stack</span>Application guides</span>:
     - "Jupyter Notebook": application-guides/jupyter-notebook.md
+    - "Python environment": application-guides/python.md
     - "Ollama and LLM": application-guides/ollama-and-llm.md
     - "MATLAB": application-guides/matlab.md
+    - "TensorFlow": application-guides/tensorflow.md
+    - "PyTorch": application-guides/pytorch.md
     - "ImageMagick": application-guides/imagemagick.md
-    - "Checkpointing": application-guides/checkpointing.md
   - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">school</span>Courses</span>:
     - "": ""
   - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">edit_note</span>For lecturers</span>:
