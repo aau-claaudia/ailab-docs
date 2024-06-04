@@ -1,5 +1,3 @@
-# Offboarding
-
 The offboarding process of AI-LAB is important for promoting responsible usage, maintaining data privacy and security, and managing resources effectively to provide a seamless user experience.
 
 #### Clean up after use

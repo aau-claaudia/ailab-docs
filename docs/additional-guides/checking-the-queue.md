@@ -2,28 +2,27 @@ When using the cluster, you typically wish to see an overview of what is current
 
 The command `squeue` can be used to get a general overview:
 
-!!! example annotate
+```
+squeue
 
-        squeue
+JOBID   PARTITION       NAME      USER    ST      TIME    NODES   NODELIST(REASON)
+42            gpu   interact  xxxxxxxx     R   6:45:14	      1        ailab-l4-01
+```
 
-        JOBID(1) PARTITION(2)		NAME(3)	 USER(4) ST(5) TIME(6)	NODES(7) NODELIST(REASON)(8)
-           42	       gpu      interact xxxxxxxx     R	6:45:14		    1         ailab-l4-01
-
-1.  `JOBID` shows the ID number of each job in queue.
+1.  `JOBID` shows the `ID` number of each job in queue.
 2.  `PARTITION` shows which partition each job is running in.
 3.  `NAME` is the name of the job which can be specified by the user creating it.
 4.  `USER` is the username of the user who created the job.
-5.  `ST` is the current state of each job; for example "R" means a job is running and "PD" means pending. There are other states as well - see `man squeue` for more details (under "JOB STATE CODES").
-6.  `TIME` shows how long each job has been running. NODES shows how many nodes are involved in each job allocation.
+5.  `ST` is the current state of each job; for example `R` means a job is running and `PD` means pending. There are other states as well - see `man squeue` for more details (under `JOB STATE CODES`).
+6.  `TIME` shows how long each job has been running.
 7.  `NODES` shows how many nodes are involved in each job allocation.
 8.  `NODELIST` shows which node(s) each job is running on, or alternatively, why it is not running yet.
 
  
 Showing your own jobs only:
 
-!!! example
+```
+squeue --me
+```
 
-        squeue --me
-
-`squeue` can show many other details about jobs as well. Run `man
-squeue` to see detailed documentation on how to do this.
+`squeue` can show many other details about jobs as well. Run `man squeue` to see detailed documentation on how to do this.

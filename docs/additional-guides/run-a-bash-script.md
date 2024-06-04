@@ -54,4 +54,4 @@ To submit the job, use the sbatch command:
 sbatch run_job.sh
 ```
 
-After the job gets submitted, you should be able to find a file called something like `result_1x.out` with `Hello from within the Singularity container!` in it.
+After the job gets submitted, you should be able to find a file called something like `result_x.out` with `Hello from within the Singularity container!` in it.

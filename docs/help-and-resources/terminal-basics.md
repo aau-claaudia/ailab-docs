@@ -1,5 +1,7 @@
 The following commands provide a solid foundation for navigating and working within a Linux terminal environment, particularly in the context of AI-LAB. Familiarize yourself with these commands to enhance your productivity and efficiency when using the platform. You can also look at this basic course to the shell at: [https://linuxjourney.com/lesson/the-shell](https://linuxjourney.com/lesson/the-shell).
 
+<br>
+
 ### Navigation Commands:
 - `pwd`: Displays the current directory path.
 - `ls`: Shows the files and directories in the current location.
@@ -9,6 +11,8 @@ The following commands provide a solid foundation for navigating and working wit
 - `cd ~`: Move to the home directory.
 - `cd -`: Return to the previous directory.
   
+<hr>
+
 ### File Management Commands:
 - `mkdir [directory_name]`: Create a directory with a specific name.
 - `rmdir [directory_name]`: Remove a directory.
@@ -18,6 +22,8 @@ The following commands provide a solid foundation for navigating and working wit
 - `rm [file_name]`: Remove a file.
 - `rm -r [directory_name]`: Remove a directory and its contents recursively.
 
+<hr>
+
 ### Text Editing Commands:
 - `nano [file_name]`: Open a file for editing.
     * `Ctrl + O`: Saving a File.
@@ -26,6 +32,8 @@ The following commands provide a solid foundation for navigating and working wit
     * `:q`: Exit Vim.
     * `:wq`: Exit and save Vim.
     * `i`: Enter insert mode, where you can type to insert or edit text. Press Esc to exit insert mode.
+
+<hr>
 
 ### Other Useful Commands:
 - `cat [file_name]`: Display the contents of a file.

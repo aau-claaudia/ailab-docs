@@ -1,54 +1,59 @@
 # Project information
 site_name: AI-LAB Documentation
 site_author: CLAAUDIA, ITS, Aalborg University
-site_description: >-
-  Documentation for AI-LAB, a powerful computing platform available to students at Aalborg University, designed to support intensive computational tasks, particularly those involving machine learning.
-
-# Repository
-repo_name: aau-claaudia/ai-student-cloud-docs  #TODO: update 
-repo_url: #TODO: update
+site_description: Documentation for AI-LAB, a powerful computing platform available to students at Aalborg University, designed to support intensive computational tasks, particularly those involving machine learning.
 
 # Copyright
 copyright: Copyright &copy; 2024 CLAAUDIA
 
 nav:
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">home</span>Home</span>: index.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">settings</span>System overview</span>: system-overview.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">developer_guide</span>Guidelines</span>: guidelines.md
-  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">rocket_launch</span>Getting started</span>:
-    - "Preperation": getting-started/preperation.md
-    - "Login": getting-started/login.md
-    - "File management": getting-started/file-management.md
-    - "Getting applications": getting-started/getting-applications.md
-    - "Running applications": getting-started/running-applications.md
-    - "Offboarding": getting-started/offboarding.md
-  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">code_blocks</span>Additional guides</span>:
-    - "Terminal basics": additional-guides/terminal-basics.md
-    - "Checking the queue": additional-guides/checking-the-queue.md
-    - "Checking the status of compute nodes": additional-guides/checking-the-status-of-compute-nodes.md
-    - "Running a container in interactive mode": "additional-guides/running-a-container-in-interactive-mode.md"
-    - "Run a bash script": additional-guides/run-a-bash-script.md
-    - "Setting a time limit": additional-guides/setting-a-time-limit.md
-    - "Building your own container image": additional-guides/building-your-own-container-image.md
-    - "Download images from NGC": additional-guides/download-images-from-ngc.md
-    - "Checkpointing": additional-guides/checkpointing.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">note_stack</span>Application guides</span>:
-    - "Jupyter Notebook": application-guides/jupyter-notebook.md
-    - "Python environment": application-guides/python.md
-    - "Ollama and LLM": application-guides/ollama-and-llm.md
-    - "MATLAB": application-guides/matlab.md
-    - "TensorFlow": application-guides/tensorflow.md
-    - "PyTorch": application-guides/pytorch.md
-    - "ImageMagick": application-guides/imagemagick.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">school</span>Courses</span>:
-    - "": ""
-  - <span class='custom-nav-item hr'><span class="material-symbols-outlined nav-icon">edit_note</span>For lecturers</span>:
-    - "Adding a course": additional-guides/for-lecturers/adding-a-course.md
-    - "Page design guide": additional-guides/for-lecturers/page-design-guide.md
-    - "Compute node reservation": additional-guides/for-lecturers/compute-node-reservation.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">quiz</span>FAQ</span>: faq.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">dictionary</span>Glossery</span>: glossery.md
-  - <span class='custom-nav-item'><span class="material-symbols-outlined nav-icon">help</span>Support</span>: support.md
+  - Home: index.md
+  - Getting started:
+    - Before you begin: getting-started/before-you-begin.md
+    - Login: getting-started/login.md
+    - File management: getting-started/file-management.md
+    - Getting applications: getting-started/getting-applications.md
+    - Running jobs: getting-started/running-jobs.md
+    - Next steps: getting-started/next-steps.md
+  - Applications:
+    #- Jupyter Notebook: applications/jupyter-notebook.md
+    - Python environment: applications/python.md
+    - Ollama and LLM: applications/ollama-and-llm.md
+    - MATLAB: applications/matlab.md
+    - TensorFlow: applications/tensorflow.md
+    - PyTorch:
+      - Getting PyTorch: applications/pytorch/pytorch.md
+      #- PyTorch multi GPU job: applications/pytorch/pytorch-multi-gpu-job.md
+    - ImageMagick: applications/imagemagick.md
+  - Additional guides:
+    - Slurm commands:
+      - Checking the queue: additional-guides/checking-the-queue.md
+      - Checking the status of compute nodes: additional-guides/checking-the-status-of-compute-nodes.md
+      - Setting a time limit: additional-guides/setting-a-time-limit.md
+    - Building containers:
+      - Building your own container image: additional-guides/building-your-own-container-image.md
+      - Download images from NGC: additional-guides/download-images-from-ngc.md
+    - Running containers:
+      - Running a container in interactive mode: additional-guides/running-a-container-in-interactive-mode.md
+      - Run a bash script: additional-guides/run-a-bash-script.md
+    - Checkpointing: additional-guides/checkpointing.md
+  - System overview:
+    - Hardware: system-overview/hardware.md
+    - Software: system-overview/software.md
+    - Storage: system-overview/storage.md
+  - Courses:
+    - Empty for now: courses/empty-for-now.md
+  - Help & resources:
+    - Support: help-and-resources/support.md
+    - Guidelines: help-and-resources/guidelines.md
+    - Known issues:  help-and-resources/known-issues.md
+    - Glossery:  help-and-resources/glossery.md
+    - Terminal basics: help-and-resources/terminal-basics.md
+    - For lecturers:
+      - Adding a course: help-and-resources/for-lecturers/adding-a-course.md
+      - Page design guide: help-and-resources/for-lecturers/page-design-guide.md
+      # - Compute node reservation: help-and-resources/for-lecturers/compute-node-reservation.md
+      
     
 theme:
   name: material
@@ -56,10 +61,12 @@ theme:
   features:
     - navigation.instant
     - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
     - content.code.copy
     - content.code.annotate
 
-  logo: assets/logo_round.png
+  logo: assets/img/aau-logo-512x512.png
   favicon: assets/favicon.ico
 
   font:

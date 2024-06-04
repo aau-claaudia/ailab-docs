@@ -1,5 +1,4 @@
-# File management
-You are now logged into AI-LAB and are in your user directory, which is located at `/ceph/home/<domain>/<user>`. You can confirm this by typing `pwd`. This directory is your personal storage space where you can keep all your files. It is stored on a network file system, so you can access your files from any node within the platform.
+You are now logged into AI-LAB and are in your user directory, which is located at `/ceph/home/<domain>/<user>`. You can confirm this by typing `pwd`. This directory is your private storage space where you can keep all your files. It is stored on a network file system, so you can access your files from any node within the platform.
 
 Here is the general file structure on AI-LAB:
 
@@ -28,17 +27,22 @@ Here is the general file structure on AI-LAB:
 	</ul>
 </div>
 
-#### Transfer files within AI-LAB
+For a detailed overview of the AI-LAB storage system, click [here](/system-overview/storage).
+
+<hr>
+
+## Transfer files within AI-LAB
 You can use the command `cp [source] [destination]` to copy files to and from directories within AI-LAB. This will be useful when you need to retrieve applications or course materials later. For example:
 
-!!! example
-	```
-	cp /ceph/course/claaudia/docs/matlab_script.m .
-	```
+```
+cp /ceph/course/claaudia/docs/matlab_script.m .
+```
 
-	Here, `/ceph/course/claaudia/docs/matlab_script.m` is the path to the file or folder you want to copy, and `.` is the path to where you want to copy it—in this case, your user directory.
+Here, `/ceph/course/claaudia/docs/matlab_script.m` is the path to the file or folder you want to copy, and `.` is the path to where you want to copy it—in this case, your user directory.
 
-#### Transfer files between your local computer and AI-LAB
+<hr>
+
+## Transfer files between your local computer and AI-LAB
 
 ===+ "Windows"
 	You can transfer files between your local computer and AI-LAB using [WinSCP](https://winscp.net/eng/docs/lang:da). Other popular solutions are [PuTTY](https://www.putty.org/) and [FileZilla](https://filezilla-project.org/). Alternatively, you can install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui) to use the `scp` command, as shown for [Linux/MacOS](/getting-started/file-management/#__tabbed_1_2) users.
@@ -53,35 +57,31 @@ You can use the command `cp [source] [destination]` to copy files to and from di
 
 ===+ "Linux/MacOS"
 
-	You can transfer files between your local computer and AI-LAB using the command line utility `scp` from your local computer (<span style="font-weight: 700">Note:</span> You have to be logged out from AI-LAB to use `scp`).
+	You can transfer files between your local computer and AI-LAB using the command line utility `scp` from your local computer (**note:** You have to be logged out from AI-LAB to use `scp`).
 
-	!!! example
 
-		```console
-		scp some-file <email>@ailab-fe01.srv.aau.dk:~
-		```
-		
-		Here, '~' represents your user directory on AI-LAB. 
+	```console
+	scp some-file <email>@ailab-fe01.srv.aau.dk:~/some-dir
+	```
+	
+	Here, `~` represents your user directory on AI-LAB and `/some-dir` a folder in your directory. 
 
-		You can specify directories within your user directory:
+	Replace `<email>` with your AAU email address.
 
-		```console
-		scp some-file <email>@ailab-fe01.srv.aau.dk:~/some-dir/some-sub-dir/
-		```
-
-		Replace `<email>` with your AAU email address.
+	<hr>
 
 	To copy files from AI-LAB to your local computer, use:
 
-	!!! example
 
-		```console
-		scp <email>@ailab-fe01.srv.aau.dk:~/some-folder/some-subfolder/some-file .
-		```
-		
-		Here, `.` represents the current directory on your local computer.
+	```console
+	scp <email>@ailab-fe01.srv.aau.dk:~/some-folder/some-subfolder/some-file .
+	```
+	
+	Here, `.` represents the current directory on your local computer.
 
 	In general, file transfer tools that can use SSH as protocol should
 	work. A common choice is [FileZilla](https://filezilla-project.org/).
 
-Now that you know the basics of file transfer, lets proceed to learn how to <span style="color: var(--md-primary-fg-color); font-weight: 700;"><a href="/getting-started/getting-applications">get applications :octicons-arrow-right-24:</a></span>
+<hr>
+
+Now that you know the basics of file transfer, lets proceed to learn how to [**get applications :octicons-arrow-right-24:**](/getting-started/getting-applications)

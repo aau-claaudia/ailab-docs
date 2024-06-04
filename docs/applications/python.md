@@ -1,4 +1,4 @@
-# Installing Python and Pip Packages in Singularity Container on AI-LAB
+# Installing Python and Pip Packages in a container image
 
 This guide will walk you through the process of creating a Singularity container with Python and pip packages installed, and then running a Python example script within the container on the AI-LAB HPC platform.
 

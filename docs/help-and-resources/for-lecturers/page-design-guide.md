@@ -93,21 +93,12 @@ You can make call-outs/admonitions like so:
 !!! info "This is the title"
     This is the content
 
-!!! warning "This is the title"
-    This is the content
-
 ```
 
 <div class="result" markdown>
 <span style="color: #a1a1a1; float: right;">Preview</span>
-<br>
 !!! info "This is the title"
     This is the content
-
-!!! warning "This is the title"
-    This is the content
-
-Look at [https://squidfunk.github.io/mkdocs-material/reference/admonitions/](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) for more types of call-outs, like warning, example etc.
 
 </div>
 

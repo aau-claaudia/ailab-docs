@@ -1,9 +1,11 @@
-!!! custom "`--time` is a useful tool to prevent hangs"
-    Sometimes, jobs may get stuck or encounter unforeseen issues, causing them to run indefinitely. Setting a time limit ensures that such jobs are automatically terminated after a certain duration, preventing them from consuming resources unnecessarily.
+Sometimes, jobs may get stuck or encounter unforeseen issues, causing them to run indefinitely. Setting a time limit ensures that such jobs are automatically terminated after a certain duration, preventing them from consuming resources unnecessarily.
 
-You can add a `--time` parameter to your Slurm command, e.g. `--time=24:00:00` to run a job for a maximum of 24 hours, or `--time=1-8:00:00` to run a job for maximum 1 day and 8 hours. 
+You can add a `--time` parameter to your Slurm command, e.g. `--time=08:00:00` to run a job for maximum 8 hours:
 
-!!! example
-    ```console
-    srun --time=00:00:10 hostname
-    ```
+```console
+srun --time=08:00:00 hostname
+```
+<br>
+
+### Jobs can run no longer than 12 hours
+Every job submitted to AI-LAB is subject to a time limit of 12 hours. This limit is set to prevent a single user from monopolizing the entire cluster indefinitely. We are trying to ensure that all users receive an equal share of available resources.
