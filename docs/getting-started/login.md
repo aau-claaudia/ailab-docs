@@ -24,7 +24,9 @@ Replace `<email>` with your AAU email address.
 
     Please confirm by typing 'yes' to proceed with the connection.
 
-Enter your AAU password when prompted. When you can see `<email>@ailab-fe01:~$` you are succesfully logged in.
+Enter your AAU password when prompted. 
+
+When you can see `<email>@ailab-fe01:~$` you are succesfully logged in.
 
 <hr>
 

@@ -1,12 +1,12 @@
-You are now logged into AI-LAB and are in your user directory, which is located at `/ceph/home/<domain>/<user>`. You can confirm this by typing `pwd`. This directory is your private storage space where you can keep all your files. It is stored on a network file system, so you can access your files from any node within the platform.
+You are now logged into AI-LAB and are in your user directory, which is located at `/ceph/home/<domain>/<user>`. You can confirm this by typing `pwd`. This directory is your private storage space where you can keep all your files. It is stored on a network file system, so you can access your files from any [compute node](/help-and-resources/glossery/#compute-nodes) within the platform.
 
 Here is the general file structure on AI-LAB:
 
 <div class="tree">
 	<ul>
-	<li><i class="fa fa-folder-open"></i> ceph/
+	<li><i class="fa fa-folder-open"></i> ceph/ <span>AI-LAB's file system</span>
 		<ul>
-		<li><i class="fa fa-folder-open"></i> home
+		<li><i class="fa fa-folder-open"></i> home <span>user home directories</span>
 			<ul>
 			<li><i class="fa fa-folder-open"></i> [domain] <span>e.g student.aau.dk</span>
 				<ul>

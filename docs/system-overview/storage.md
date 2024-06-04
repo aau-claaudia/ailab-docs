@@ -7,14 +7,13 @@ Your user directory serves as the primary location for storing personal files an
 
 <div class="tree">
     <ul>
-    <li><i class="fa fa-folder-open"></i> ceph/
+    <li><i class="fa fa-folder-open"></i> ceph/ <span>AI-LAB's file system</span>
         <ul>
-        <li><i class="fa fa-folder-open"></i> home
+        <li><i class="fa fa-folder-open"></i> home <span>user home directories</span>
             <ul>
-            <li><i class="fa fa-folder-open"></i> [domain] <span>e.g student.aau.dk<span>
+            <li><i class="fa fa-folder-open"></i> [domain] <span>e.g student.aau.dk</span>
                 <ul>
-                <li><i class="fa fa-folder"></i> [user] <span>your user directory </span>
-                </li>
+                    <li><i class="fa fa-folder"></i> [user] <span>your user directory</span></li>
                 </ul>
             </li>
             </ul>
@@ -33,7 +32,7 @@ AI-LAB fosters collaborative work through shared project directories. These dire
 
 <div class="tree">
     <ul>
-    <li><i class="fa fa-folder-open"></i> ceph/
+    <li><i class="fa fa-folder-open"></i> ceph/ <span>AI-LAB's file system</span>
         <ul>
         <li><i class="fa fa-folder-open"></i> project <span>shared project directories</span>
             <ul>
@@ -57,7 +56,7 @@ To support educational activities, AI-LAB hosts course-specific materials within
 
 <div class="tree">
     <ul>
-    <li><i class="fa fa-folder-open"></i> ceph/
+    <li><i class="fa fa-folder-open"></i> ceph/ <span>AI-LAB's file system</span>
         <ul>
         <li><i class="fa fa-folder-open"></i> course <span>directory with course specific material</span>
             <ul>
