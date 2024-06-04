@@ -8,7 +8,7 @@ title: FAQ
     AI-LAB is managed by the [CLAAUDIA](https://www.researcher.aau.dk/contact/claaudia) team. CLAAUDIA is a specialized team within ITS at Aalborg University focused on research data support, particularly skilled in leveraging high-performance computing and cloud resources such as AI-LAB. They offer [support](/support) and consultations to help students and researchers navigate through options for utilizing supercomputing resources effectively.
 
 !!! question old "Can I have a graphical user interface (GUI) in AI-LAB?"
-    No. As a rule of thumb, you can only operate applications through a command line interface. AI-LAB is best suited for throughput type computing: queue up your job and come back for the result later. If your project could benefit from running on a GPU cluster but demands an interactive graphical interface, we would recommend checking out [UCloud] HPC Platform (https://www.researcher.aau.dk/guides/research-data/high-performance-computing/deic-hpc).
+    No. As a rule of thumb, you can only operate applications through a command line interface. AI-LAB is best suited for throughput type computing: queue up your job and come back for the result later. If your project could benefit from running on a GPU cluster but demands an interactivgdfgdfge graphical interface, we would recommend checking out [UCloud] HPC Platform (https://www.researcher.aau.dk/guides/research-data/high-performance-computing/deic-hpc).
 
 !!! question old "What software can I run in AI-LAB?"
     In principle any software that can run under Linux since the operating system on the servers in AI-LAB is Linux. It is necessary to encapsulate the software in a [container](/glossery/#container) in order to use it.
