@@ -21,6 +21,7 @@ nav:
     - Ollama and LLM: applications/ollama-and-llm.md
     - MATLAB: applications/matlab.md
     - TensorFlow: applications/tensorflow.md
+    - : applications/visual-studio-code.md
     - PyTorch:
       - Getting PyTorch: applications/pytorch/pytorch.md
       #- PyTorch multi GPU job: applications/pytorch/pytorch-multi-gpu-job.md
