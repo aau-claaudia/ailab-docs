@@ -36,5 +36,8 @@ Gres=gpu:l4:8(S:0-1)
 
 The two commands `sinfo` and `scontrol show node` provide information which is either too little or way too much detail in most situations. As an alternative, we provide the tool `nodesummary` to show a hopefully more intuitive overview of the used/available resources in AI-LAB.
 
-==SCREENSHOT NEED TO BE UPDATED TO AI-LAB SPECIFICS==
+```
+nodesummary
+```
+
 ![Screenshot of `nodesummary` in use.](/assets/img/nodesummary.png)
