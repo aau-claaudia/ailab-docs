@@ -22,7 +22,7 @@ After starting the Jupyter Notebook, you will see instructions similar to:
 ```
 --------------------------------------------------------------------------------------------------
 Use the following SSH port forwarding command:
-ssh -L 8965:ailab-l4-01:8965 myuser@student.aau.dk@ailab-fe01.srv>.aau.dk
+ssh -L 8965:ailab-l4-01:8965 myuser@student.aau.dk@ailab-fe01.srv.aau.dk
 
 Then access the Jupyter Notebook on:
 http://localhost:8965/?token=11169962e9c5e3c7107ffcb17918cfbd
