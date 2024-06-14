@@ -1,16 +1,13 @@
 It is often desirable to monitor the resource status of the compute nodes when you wish to run a job. 
 
-
 The `sinfo` command shows basic information about partitions in the queue system and what the states of nodes in these partitions are.
 
 ```
 sinfo
     
-PARTITION       AVAIL      TIMELIMIT      NODES      STATE                         NODELIST
-gpu*               up       12:00:00         11       idle                 ailab-l4-[01-11]
-l4                 up       12:00:00         11       idle                 ailab-l4-[01-11]
-vmware             up          10:00          4       idle                    vmware[01-04]
-all                up           5:00         15       idle   ailab-l4-[01-11],vmware[01-04]
+PARTITION       AVAIL      TIMELIMIT      NODES      STATE             NODELIST
+l4*                up       12:00:00         11       idle     ailab-l4-[01-11]
+vmware             up          10:00          4       idle        vmware[01-04]
 ```
 
 1.  `PARTITION` In the context of AI-LAB, partitions can be understood as distinct categories or groups of compute nodes, essentially serving as separate queues for jobs.

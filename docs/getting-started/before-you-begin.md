@@ -2,7 +2,7 @@ Before diving into AI-LAB, ensure you have the necessary tools and knowledge for
 
 ### Request access
 
-- To request access to AI-LAB, apply [here](https://forms.office.com/e/caEhCRmqVN). Approval may currently take some time as AI-LAB is in beta. We will email you when you access in to AI-LAB.
+- To request access to AI-LAB, apply [here](https://forms.office.com/e/caEhCRmqVN). Approval may currently take some time as AI-LAB is in beta. We will send you an email when you can access AI-LAB.
 
 <!-- If you don't receive access within 24 hours, please [contact us](/help-and-resources/support) -->
 
