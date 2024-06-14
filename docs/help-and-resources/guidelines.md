@@ -11,7 +11,7 @@ AI-LAB is a service made available to all AAU students. The platform consists of
 ### Data deletion and extension policies
 Every year at 1. August, all student data and user information will be automatically removed from the AI-LAB platform. You will receive email notifications 2 months, 1 month, 14 days, and 2 day prior to the deletion date. It is important to ensure that you transfer any desired files from AI-LAB to your local computer before the deletion date.
 
-Should you wish to keep your data on AI-LAB and use the platform for another semester, you can submit an extension request through the [application form](https://forms.office.com/e/caEhCRmqVN) for AI-LAB. Alternatively, you can apply for a new project.
+Should you wish to keep your data on AI-LAB and use the platform for another year, you can submit an extension request through the [application form](https://forms.office.com/e/caEhCRmqVN) for AI-LAB. This will extend your access until August 1st of the following year.
 
 <hr>
 
