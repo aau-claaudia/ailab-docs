@@ -21,7 +21,7 @@ In AI-LAB, Slurm is responsible for managing the allocation and scheduling of co
 <br>
 
 #### Pre-Downloaded Containers on AI-LAB
-AI-LAB provides a variety of pre-downloaded containers to help users get started quickly. These containers are stored in the `/ceph/container` directory. The list of available containers is periodically updated, and users can propose new containers by contacting the [support team](/help-and-resources/support). Currently available container images includes:
+AI-LAB provides a variety of pre-downloaded containers to help users get started quickly. These containers are stored in the `/ceph/container` directory. The list of available containers is periodically updated, and users can propose new containers by contacting the [support team](../help-and-resources/support.md). Currently available container images includes:
 
 - PyTorch (CPU/GPU)
 - TensorFlow (CPU/GPU)

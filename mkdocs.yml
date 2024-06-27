@@ -16,14 +16,11 @@ nav:
     - Running jobs: getting-started/running-jobs.md
     - Next steps: getting-started/next-steps.md
   - Applications:
-    # - Jupyter Notebook: applications/jupyter-notebook.md
     - Python environment: applications/python.md
     - Ollama and LLM: applications/ollama-and-llm.md
     - MATLAB: applications/matlab.md
     - TensorFlow: applications/tensorflow.md
-    # - Visual Studio Code: applications/visual-studio-code.md
     - PyTorch: applications/pytorch.md
-      #- PyTorch multi GPU job: applications/pytorch/pytorch-multi-gpu-job.md
     - ImageMagick: applications/imagemagick.md
   - Additional guides:
     - Monitoring commands:
@@ -58,9 +55,7 @@ nav:
     - Terminal basics: help-and-resources/terminal-basics.md
     - For lecturers:
       - Adding a course: help-and-resources/for-lecturers/adding-a-course.md
-      - Page design guide: help-and-resources/for-lecturers/page-design-guide.md
-      # - Compute node reservation: help-and-resources/for-lecturers/compute-node-reservation.md
-      
+      - Page design guide: help-and-resources/for-lecturers/page-design-guide.md      
     
 theme:
   name: material

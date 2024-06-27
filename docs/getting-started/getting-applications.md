@@ -27,13 +27,13 @@ To use the container images, you can either use them straight from the `/ceph/co
 <hr>
 
 ## Download container images
-Alternatively, you can access a wide array of container images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and exploring whether NVIDIA provides a container image for the application you require. Refer to our guide [here](/additional-guides/download-container-images) for detailed instructions.
+Alternatively, you can access a wide array of container images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and exploring whether NVIDIA provides a container image for the application you require. Refer to our guide [here](../additional-guides/download-container-images.md) for detailed instructions.
 
 <hr>
 
 ## Build your own container images
-You also have the flexibility to create your own container images tailored to your specific environment requirements. Refer to our guide on [building your own container image](/additional-guides/building-your-own-container-image).
+You also have the flexibility to create your own container images tailored to your specific environment requirements. Refer to our guide on [building your own container image](../additional-guides/building-your-own-container-image.md).
 
 <br>
 
-Now that you know how to obtain applications, let's delve into [**running jobs :octicons-arrow-right-24:**](/getting-started/running-jobs)
+Now that you know how to obtain applications, let's delve into [**running jobs :octicons-arrow-right-24:**](running-jobs.md)

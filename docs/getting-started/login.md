@@ -30,4 +30,4 @@ When you can see `user@student.aau.dk@ailab-fe01:~$` you are succesfully logged 
 
 <hr>
 
-You are now ready to proceed to learn about [**file management :octicons-arrow-right-24:**](/getting-started/file-management)
+You are now ready to proceed to learn about [**file management :octicons-arrow-right-24:**](file-management.md)

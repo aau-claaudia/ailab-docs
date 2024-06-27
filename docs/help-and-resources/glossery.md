@@ -24,7 +24,7 @@ A computing cluster is a collection of interconnected computers (compute nodes) 
 <hr>
 
 ### Compute nodes
-Compute Nodes are the individual computers within the Computing cluster that perform the actual computational work. Each compute node is a separate computer, equipped with its own processors (CPUs), memory (RAM), and GPUs for specialized computations. Compute nodes are networked together and run a unified operating system and software environment. Compute nodes are tasked with executing the computational jobs submitted by users. In AI-LAB, users don't interact directly with compute nodes. Instead, they submit jobs through the job scheduler [Slurm](/glossery/#slurm), which then allocates the necessary resources and runs the job on the compute nodes.
+Compute Nodes are the individual computers within the Computing cluster that perform the actual computational work. Each compute node is a separate computer, equipped with its own processors (CPUs), memory (RAM), and GPUs for specialized computations. Compute nodes are networked together and run a unified operating system and software environment. Compute nodes are tasked with executing the computational jobs submitted by users. In AI-LAB, users don't interact directly with compute nodes. Instead, they submit jobs through the job scheduler Slurm, which then allocates the necessary resources and runs the job on the compute nodes.
 
 <hr>
 

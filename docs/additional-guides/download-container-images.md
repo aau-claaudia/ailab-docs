@@ -1,10 +1,10 @@
 You can download a large range of container images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and check whether NVIDIA provides a container image with the application you need.
 
-![Screenshot of NGC website](/assets/img/ngc.png)
+![Screenshot of NGC website](../assets/img/ngc.png)
 
 As an example, this could be TensorFlow. You can search on NGC and find [TensorFlow](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorflow). Here you can choose the desired version from the "Copy image path" dropdown menu:
 
-![Screenshot of NGC TensorFlow page](/assets/img/ngc-tf-detail.png)
+![Screenshot of NGC TensorFlow page](../assets/img/ngc-tf-detail.png)
 
 This copies a link to the container image which we will use in the following example.
 

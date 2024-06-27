@@ -26,11 +26,11 @@ There is actually 16 CPUs per GPU available, but using a maximum of 15 CPUs per 
 srun --gres=gpu:4 singularity exec --nv /ceph/container/tensorflow_24.03-tf2-py3.sif python3 benchmark_tensorflow.py
 ```
 
-Request only the number of GPUs your job can effectively utilize. Over-requesting can lead to resource underutilization and longer queue times. Some applications may need adjustments to scale effectively across multiple GPUs. [Here](/additional-guides/multiple-gpus-with-pytorch) is an example of a PyTorch script that can handle multiple GPUs. 
+Request only the number of GPUs your job can effectively utilize. Over-requesting can lead to resource underutilization and longer queue times. Some applications may need adjustments to scale effectively across multiple GPUs. [Here](multiple-gpus-with-pytorch.md) is an example of a PyTorch script that can handle multiple GPUs. 
 
 !!! info "Monitor GPU usage"
 
-    You can use the NVIDIA GPU monitoring command `nvidia-smi` to output GPU usage information. Learn how to use it in [this guide](/additional-guides/checking-gpu-usage).
+    You can use the NVIDIA GPU monitoring command `nvidia-smi` to output GPU usage information. Learn how to use it in [this guide](checking-gpu-usage.md).
 
 ### Number of tasks to be run
 

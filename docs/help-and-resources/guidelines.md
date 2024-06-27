@@ -25,14 +25,14 @@ If you would like to work with confidential or sensitive data (classified as lev
 <hr>
 
 ### Scheduled maintenance
-On specific dates, scheduled maintenance will be conducted on AI-LAB. The routine maintenance will occur between <span style="font-weight: bold;">00:01 and 23:59</span>. AI-LAB will be unavailable throughout most of that day. You can still submit new jobs until the beginning of the service window. For jobs that may exceed the service window, please ensure to set a maximum runtime using the parameter `--time` that concludes before <span style="font-weight: bold;">23:59</span> the day preceding the service window. Read more about the `--time` parameter [here](/additional-guides/setting-a-time-limit). Otherwise, these jobs will not be able to start until after the maintenance period. You will receive email notifications 1 month, 14 days, and 1 day prior to the scheduled maintenance window.
+On specific dates, scheduled maintenance will be conducted on AI-LAB. The routine maintenance will occur between <span style="font-weight: bold;">00:01 and 23:59</span>. AI-LAB will be unavailable throughout most of that day. You can still submit new jobs until the beginning of the service window. For jobs that may exceed the service window, please ensure to set a maximum runtime using the parameter `--time` that concludes before <span style="font-weight: bold;">23:59</span> the day preceding the service window. Read more about the `--time` parameter [here](../additional-guides/setting-a-time-limit.md). Otherwise, these jobs will not be able to start until after the maintenance period. You will receive email notifications 1 month, 14 days, and 1 day prior to the scheduled maintenance window.
 
 <hr>
 
 ### Clean up after use
 AI-LAB encourages responsible usage, which includes cleaning up your user directory for files that are no longer needed. You can use `rm [file_name]` to remove a file and `rm -r [directory_name]` to remove a directory and its contents.
 
-Before deleting files, remember that you can [transfer files](/getting-started/file-management) from your AI-LAB directory to your local computer.
+Before deleting files, remember that you can [transfer files](../getting-started/file-management.md) from your AI-LAB directory to your local computer.
 
 <hr>
 

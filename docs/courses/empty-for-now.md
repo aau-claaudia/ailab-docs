@@ -1,4 +1,4 @@
-This section is empty for now. If you are a lecturer, please have a look at [Adding a course](/help-and-resources/for-lecturers/adding-a-course/).
+This section is empty for now. If you are a lecturer, please have a look at [Adding a course](../help-and-resources/for-lecturers/adding-a-course.md).
 <!-- 
 <div class="table">
   <div class="table-cell"></div>

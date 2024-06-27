@@ -26,7 +26,7 @@ srun hostname
 Once a compute node becomes available the `hostname` command executes on the allocated compute node, revealing its identifier (e.g. `ailab-l4-01`).
 
 !!! info "More Slurm commands"
-    You can find [additional Slurm commands](/additional-guides/checking-the-queue) available to customize your job submissions, such as setting the time limit for a job, specifying the number of CPUs or GPUs, and more.
+    You can find [additional Slurm commands](../additional-guides/checking-the-queue.md) available to customize your job submissions, such as setting the time limit for a job, specifying the number of CPUs or GPUs, and more.
 
 <hr>
 
@@ -66,14 +66,11 @@ Lets try allocating 1 arbitrary available GPU to the job by adding `--gres=gpu:1
 srun --gres=gpu:1 singularity exec --nv /ceph/container/tensorflow_24.03-tf2-py3.sif python3 benchmark_tensorflow.py
 ```
 
-Note that the above example allocate 1 GPU to the job. It is possible to allocate more, for example `--gres=gpu:2` for two GPUs. Software for computing on GPU is not necessarily able to utilise more than one GPU at a time. It is your responsibility to ensure that the software you run can indeed utilise as many GPUs as you allocate. It is not allowed to allocate more GPUs than your job can utilise. [Here](/additional-guides/multiple-gpus-with-pytorch) is an example of a PyTorch script that can handle multiple GPUs. 
+Note that the above example allocate 1 GPU to the job. It is possible to allocate more, for example `--gres=gpu:2` for two GPUs. Software for computing on GPU is not necessarily able to utilise more than one GPU at a time. It is your responsibility to ensure that the software you run can indeed utilise as many GPUs as you allocate. It is not allowed to allocate more GPUs than your job can utilise. [Here](../additional-guides/multiple-gpus-with-pytorch.md) is an example of a PyTorch script that can handle multiple GPUs. 
 
 <hr>
 
 
 **:material-party-popper: Congratulations! :material-party-popper:**
 
-You've mastered the fundamentals of AI-LAB. Ready to take the [**next steps? :octicons-arrow-right-24:**](/getting-started/next-steps)
-
-
-<!-- As the last step, it's important to understand the process of <span style="color: var(--md-primary-fg-color); font-weight: 700;"><a href="/getting-started/offboarding/">Offboarding :octicons-arrow-right-24:</a></span> -->
+You've mastered the fundamentals of AI-LAB. Ready to take the [**next steps? :octicons-arrow-right-24:**](next-steps.md)

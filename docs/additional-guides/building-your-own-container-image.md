@@ -43,11 +43,11 @@ To save the file press `CTRL + O` and enter a filename ending with `.def` and hi
 
 Before you can build the container, you need to get an access token from Sylabs in order to authenticate the build of the container. Head over to [https://cloud.sylabs.io/](https://cloud.sylabs.io/) and Sign up for a new account (its free). Once you are logged it, then hover over your username in the top, and choose Access Tokens
 
-![Image of CLAAUDIA Logo](/assets/img/sylabs-access-tokens.png)
+![Image of CLAAUDIA Logo](../assets/img/sylabs-access-tokens.png)
 
 Now, enter a name, in this case "mytoken" and press "Create Access Token". An access token is created, that you can use for 1 month before it expires. 
 
-![Image of CLAAUDIA Logo](/assets/img/sylabs-create-token.png)
+![Image of CLAAUDIA Logo](../assets/img/sylabs-create-token.png)
 
 Now go back to AI-LAB and enter the following command to verify your access token:
 

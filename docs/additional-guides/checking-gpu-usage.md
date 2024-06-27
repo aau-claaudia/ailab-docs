@@ -8,7 +8,7 @@ First, submit a job using `srun` or `sbatch` with one GPU or more allocated and 
 srun --gres=gpu:1 singularity exec --nv /ceph/container/pytorch_24.03-py3.sif python3 torch_bm.py
 ```
 
-This script is NOT optimized for utilizing multiple GPUs, so in this example we will only allocate 1 GPU. [Here](/additional-guides/multiple-gpus-with-pytorch) is an example of a PyTorch script that can handle multiple GPUs.
+This script is NOT optimized for utilizing multiple GPUs, so in this example we will only allocate 1 GPU. [Here](multiple-gpus-with-pytorch.md) is an example of a PyTorch script that can handle multiple GPUs.
 
 ### Check job id
 

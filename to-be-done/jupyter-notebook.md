@@ -40,6 +40,6 @@ This sets up a port tunnel between AI-LAB and your local machine.
 Open your browser and navigate to the provided URL, e.g.: [http://localhost:<port>/?token=<token>](http://localhost:8965/?token=11169962e9c5e3c7107ffcb17918cfbd)
 
 ### Important Notes
-- **This guide is still in testing. If you experience any problems, please [contact us](/help-and-resources/support).**
+- **This guide is still in testing. If you experience any problems, please [contact us](../help-and-resources/support.md).**
 - **Session Time Limit:** There is a 4-hour time limit on the Jupyter session.
 - **Stop the Job:** It is recommended to stop the job once you are done working. Closing the terminal window where you ran the `srun --pty bash jupyter_notebook.sh <image>` command will stop the job.

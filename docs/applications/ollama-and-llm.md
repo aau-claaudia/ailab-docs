@@ -1,5 +1,5 @@
 This guide will walk you through the process of running an Ollama container image on AI-LAB and using it to serve and run a Large Language Model (LLM) like Llam
-Next, you'll run the container in [interactive mode](/additional-guides/running-a-container-in-interactive-mode). This allows you to interact with the container and execute commands within it. To do this, use the srun command with the --pty and --gres=gpu:1 options, which allocate a GPU for your session, and singularity shell --nv to open a shell within the container with GPU support enabled.
+Next, you'll run the container in [interactive mode](../additional-guides/running-a-container-in-interactive-mode.md). This allows you to interact with the container and execute commands within it. To do this, use the srun command with the --pty and --gres=gpu:1 options, which allocate a GPU for your session, and singularity shell --nv to open a shell within the container with GPU support enabled.
 
 ```
 srun --pty --gres=gpu:1 singularity shell --nv /ceph/container/ollama_0.1.37.sif

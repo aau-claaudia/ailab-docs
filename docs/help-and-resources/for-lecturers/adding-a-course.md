@@ -11,16 +11,16 @@ Follow these steps to create a new course:
       * We use [Markdown](https://en.wikipedia.org/wiki/Markdown) format and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) for styling. 
       * The easiest way to get started with your page is by using this online editor: [https://md.sigma2.no/new](https://md.sigma2.no/new).
       * You can also install Material for MkDocs by following this [getting started guide](https://squidfunk.github.io/mkdocs-material/getting-started/).
-      * For design tips, refer to our [page design guide](/help-and-resources/for-lecturers/page-design-guide).
+      * For design tips, refer to our [page design guide](page-design-guide.md).
       * Your course series may include multiple files, e.g., `tensorflow-course-1.md`, `tensorflow-course-2.md`, etc.
 
 1. Once you have made the necessary changes, submit a pull request to the main repository.
 2. We will review your changes and, if everything is in order, merge your pull request.
 
 ## Adding container image files to AI-LAB
-You can add your own container image files to the `/ceph/container` directory on AI-LAB. Simply `cp` the container from your own directory to the `/ceph/container` or use `scp` if you want to transfer it from your local computer. Take a look at [File management](/getting-started/file-management) for more details. 
+You can add your own container image files to the `/ceph/container` directory on AI-LAB. Simply `cp` the container from your own directory to the `/ceph/container` or use `scp` if you want to transfer it from your local computer. Take a look at [File management](../../getting-started/file-management.md) for more details. 
 
-We also have guides on how to [download container images](/additional-guides/download-images-from-ngc) and how to [build your own container image](/additional-guides/building-your-own-container-image).
+We also have guides on how to [download container images](../../additional-guides/download-container-images.md) and how to [build your own container image](../../additional-guides/building-your-own-container-image.md).
 
 
 ## Adding course material to AI-LAB

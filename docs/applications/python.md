@@ -55,4 +55,4 @@ This will submit the job to AI-LAB, and the output will be written to output.log
 That's it! You have now installed Python and pip packages in a Singularity container and run a Python script on the AI-LAB HPC platform.
 
 #### Checkpointing
-Checkpointing is a technique used to ensure that your computational jobs can be resumed from a previously saved state in case of interruptions or failures. [This guide](/additional-guides/checkpointing/#python-data-checkpointing) demonstrates a basic checkpointing mechanism using the standard Python module [pickle](https://docs.python.org/3/library/pickle.html) to periodically save the data of a process to a file.
+Checkpointing is a technique used to ensure that your computational jobs can be resumed from a previously saved state in case of interruptions or failures. [This guide](../additional-guides/checkpointing.md#python-data-checkpointing) demonstrates a basic checkpointing mechanism using the standard Python module [pickle](https://docs.python.org/3/library/pickle.html) to periodically save the data of a process to a file.
