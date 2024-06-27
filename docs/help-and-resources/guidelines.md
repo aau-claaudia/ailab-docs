@@ -29,6 +29,13 @@ On specific dates, scheduled maintenance will be conducted on AI-LAB. The routin
 
 <hr>
 
+### Clean up after use
+AI-LAB encourages responsible usage, which includes cleaning up your user directory for files that are no longer needed. You can use `rm [file_name]` to remove a file and `rm -r [directory_name]` to remove a directory and its contents.
+
+Before deleting files, remember that you can [transfer files](/getting-started/file-management) from your AI-LAB directory to your local computer.
+
+<hr>
+
 ### Data Management best practices
 Effective data management is crucial for maximizing the value of your research and ensuring its integrity. Organize your data in a clear and structured manner, labeling files and directories appropriately. Regularly back up your data to prevent loss in case of unexpected events. Additionally, adhere to any data sharing and privacy regulations applicable to your field. Get more guidance about data management [here](https://www.researcher.aau.dk/guides/research-data/data-management/introduction-to-data-management).
 

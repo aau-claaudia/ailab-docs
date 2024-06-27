@@ -38,6 +38,7 @@ nav:
       - Building your own container image: additional-guides/building-your-own-container-image.md
       - Download container images: additional-guides/download-container-images.md
       - Adding python packages via virtual environment: additional-guides/adding-python-packages-via-virtual-environment.md
+      - Creating a conda environment: additional-guides/creating-a-conda-environment.md
     - Running jobs:
       - Running a container in interactive mode: additional-guides/running-a-container-in-interactive-mode.md
       - Run a bash script: additional-guides/run-a-bash-script.md
