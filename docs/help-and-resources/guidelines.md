@@ -4,10 +4,6 @@ title: Guidelines
 
 # Guidelines
 
-AI-LAB is a service made available to all AAU students. The platform consists of shared hardware, and this only works if the users use the platform as intended. This is why we ask you to consider the following use guidelines.
-
-<br>
-
 ### Data deletion and extension policies
 Every year at 1. August, all student data and user information will be automatically removed from the AI-LAB platform. You will receive email notifications 2 months, 1 month, 14 days, and 2 day prior to the deletion date. It is important to ensure that you transfer any desired files from AI-LAB to your local computer before the deletion date.
 
