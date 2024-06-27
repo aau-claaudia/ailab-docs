@@ -4,7 +4,7 @@ Here is the general file structure on AI-LAB:
 
 <div class="tree">
 	<ul>
-	<li><i class="fa fa-folder-open"></i> ceph/ <span>AI-LAB's file system</span>
+	<li><i class="fa fa-folder-open"></i> /ceph <span>AI-LAB's file system</span>
 		<ul>
 		<li><i class="fa fa-folder-open"></i> home <span>user home directories</span>
 			<ul>
@@ -45,7 +45,7 @@ Here, `/ceph/course/claaudia/docs/matlab_script.m` is the path to the file or fo
 ## Transfer files between your local computer and AI-LAB
 
 ===+ "Windows"
-	You can transfer files between your local computer and AI-LAB using [WinSCP](https://winscp.net/eng/docs/lang:da). Other popular solutions are [PuTTY](https://www.putty.org/) and [FileZilla](https://filezilla-project.org/). Alternatively, you can install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui) to use the `scp` command, as shown for [Linux/MacOS](/getting-started/file-management/#__tabbed_1_2) users.
+	You can transfer files between your local computer and AI-LAB using [WinSCP](https://winscp.net/eng/download.php). Other popular solutions are [PuTTY](https://www.putty.org/) and [FileZilla](https://filezilla-project.org/). Alternatively, you can install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui) to use the `scp` command, as shown for [Linux/MacOS](/getting-started/file-management/#__tabbed_1_2) users.
 
 	When you open WinSCP, you will be greeted by a *Login* modal. Follow the instructions in the image above to establish a connection to the server.
 	![Screenshot of WinSCP setup](/assets/img/winscp-setup.png)
@@ -59,14 +59,13 @@ Here, `/ceph/course/claaudia/docs/matlab_script.m` is the path to the file or fo
 
 	You can transfer files between your local computer and AI-LAB using the command line utility `scp` from your local computer (**note:** You have to be logged out from AI-LAB to use `scp`).
 
-
 	```console
-	scp some-file <email>@ailab-fe01.srv.aau.dk:~/some-dir
+	scp some-file user@student.aau.dk@ailab-fe01.srv.aau.dk:~/some-dir
 	```
+
+	Replace `user@student.aau.dk` with your AAU email address.
 	
 	Here, `~` represents your user directory on AI-LAB and `/some-dir` a folder in your directory. 
-
-	Replace `<email>` with your AAU email address.
 
 	<hr>
 
@@ -74,13 +73,13 @@ Here, `/ceph/course/claaudia/docs/matlab_script.m` is the path to the file or fo
 
 
 	```console
-	scp <email>@ailab-fe01.srv.aau.dk:~/some-folder/some-subfolder/some-file .
+	scp user@student.aau.dk@ailab-fe01.srv.aau.dk:~/some-folder/some-subfolder/some-file .
 	```
-	
+
+	Replace `user@student.aau.dk` with your AAU email address.
+
 	Here, `.` represents the current directory on your local computer.
 
-	In general, file transfer tools that can use SSH as protocol should
-	work. A common choice is [FileZilla](https://filezilla-project.org/).
 
 <hr>
 

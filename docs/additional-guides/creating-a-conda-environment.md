@@ -54,7 +54,7 @@ srun cotainr-2023.11.0/bin/cotainr build conda_container.sif --base-image=docker
 
     `--accept-licenses` is used to acknowledge the [Miniforge license terms](https://github.com/conda-forge/miniforge/blob/main/LICENSE).
 
-After some time you should have `conda_container.sif` image in your directory. 
+After some time you should have `conda_container.sif` container image in your directory. 
 
 You can access the conda image and run code using the dependencies you set up. Lets try to see if it works by printing the numpy version:
 

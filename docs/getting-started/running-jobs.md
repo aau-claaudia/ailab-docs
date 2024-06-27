@@ -33,16 +33,16 @@ Once a compute node becomes available the `hostname` command executes on the all
 ## Executing a containerized job with Singularity
 To run a task within a container using Singularity, we need to add specific parameters to the Slurm command. 
 
-As an example, let's try running `print('hello world')` using `Python3` within the `tensorflow_24.03-tf2-py3.sif` image, which you should have acquired in the [Getting Applications](/getting-started/getting-applications) section.
+As an example, let's try running `print('hello world')` using `Python3` within the `tensorflow_24.03-tf2-py3.sif` container image from `/ceph/container` directory.
 
 ```
-srun singularity exec tensorflow_24.03-tf2-py3.sif python3 -c "print('hello world')"
+srun singularity exec /ceph/container/tensorflow_24.03-tf2-py3.sif python3 -c "print('hello world')"
 ```
 
 - `srun` is the Slurm command used to submit a job.
 - `singularity` is the command-line interface for interacting with Singularity.
 - `exec` is a sub-command that tells Singularity to execute a command inside the specified container.
-- `tensorflow_24.03-tf2-py3.sif` is the path to the container image.
+- `/ceph/container/tensorflow_24.03-tf2-py3.sif` is the path to the container image.
 - `python3 -c "print('hello world')"` is the task that singularity executes.
 
 While this execution proceeds smoothly, it's important to note that the command exclusively utilizes CPUs. The primary role of AI-LAB is to run software that utilises GPUs for computations. In order to run applications with a GPU you need to allocate a GPU to a job using Slurm. 
@@ -50,7 +50,7 @@ While this execution proceeds smoothly, it's important to note that the command 
 <hr>
 
 ## Allocating a GPU to your job
-You can allocate a GPU to a job using the `--gres=gpu` option for Slurm. Additionally, you often need to add the `--nv` option to Singularity to enable NVIDIA drivers in the container.
+You can allocate a GPU to a job using the `--gres=gpu` option for Slurm. Additionally, you need to add the `--nv` option to Singularity to enable NVIDIA drivers in the container.
 
 Let's try running a small Python script that performs a simple matrix multiplication of random data to benchmark TensorFlow computing speed with a GPU allocated:
 
@@ -63,10 +63,10 @@ cp /ceph/course/claaudia/docs/benchmark_tensorflow.py .
 Lets try allocating 1 arbitrary available GPU to the job by adding `--gres=gpu:1`:
 
 ```console
-srun --gres=gpu:1 singularity exec --nv tensorflow_24.03-tf2-py3.sif python3 benchmark_tensorflow.py
+srun --gres=gpu:1 singularity exec --nv /ceph/container/tensorflow_24.03-tf2-py3.sif python3 benchmark_tensorflow.py
 ```
 
-Note that the above example allocate 1 GPU to the job. It is possible to allocate more, for example `--gres=gpu:2` for two GPUs. Software for computing on GPU is not necessarily able to utilise more than one GPU at a time. It is your responsibility to ensure that the software you run can indeed utilise as many GPUs as you allocate. It is not allowed to allocate more GPUs than your job can utilise.
+Note that the above example allocate 1 GPU to the job. It is possible to allocate more, for example `--gres=gpu:2` for two GPUs. Software for computing on GPU is not necessarily able to utilise more than one GPU at a time. It is your responsibility to ensure that the software you run can indeed utilise as many GPUs as you allocate. It is not allowed to allocate more GPUs than your job can utilise. [Here](/additional-guides/multiple-gpus-with-pytorch) is an example of a PyTorch script that can handle multiple GPUs. 
 
 <hr>
 

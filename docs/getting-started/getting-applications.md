@@ -1,36 +1,38 @@
 To run applications on AI-LAB, you must use container images. On AI-LAB we use the container software, [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html).
 
 !!! info "What is a container image?"
-    A container image is a static, portable file that contains all the components needed to run a piece of software, including the code, runtime, system tools, libraries, and settings. It serves as a blueprint for creating containers. A container is a runtime instance of an image that is executed and managed by Singularity.
+    A container image is a static, portable file that contains all the components needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.
 
-## Pre-downloaded images
-The most straightforward method to acquire container images on AI-LAB is by accessing pre-downloaded images stored in the `/ceph/container` directory. We aim to consistently update these images to the latest versions.
+## Pre-downloaded container images
+The most straightforward method to acquire container images on AI-LAB is by accessing pre-downloaded container images stored in the `/ceph/container` directory. We aim to consistently update these container images to the latest versions.
 
-You can check which images exist in the `/ceph/container` directory on AI-LAB with `ls`:
+You can check which container images exist in the `/ceph/container` directory on AI-LAB with `ls`:
 
 ```console
 ls /ceph/container
 ```
 
-Lets copy the `tensorflow_24.03-tf2-py3.sif` image from `/ceph/container` to your user directory (**note:** TensorFlow might be newer version at this time).
+To use the container images, you can either use them straight from the `/ceph/container` directory.
 
-To copy the image from the directory, simply execute:
+!!! info "Copying the container image"
 
-```console
-cp /ceph/container/tensorflow_24.03-tf2-py3.sif .
-```
+    If you need to modify the container image, make sure to copy the container image to your own directory. To copy the container, simply execute:
 
-It may take a few minutes to copy.
+    ```console
+    cp /ceph/container/tensorflow_24.03-tf2-py3.sif .
+    ```
+
+    It may take a few minutes to copy. When you get your prompt back, the transfer has completed. Make sure by entering `ls` to see if `tensorflow_24.03-tf2-py3.sif` is in your directory.
 
 <hr>
 
 ## Download container images
-Alternatively, you can access a wide array of images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and exploring whether NVIDIA provides a image for the application you require. Refer to our guide [here](/additional-guides/download-images-from-ngc) for detailed instructions.
+Alternatively, you can access a wide array of container images by visiting [NVIDIA GPU Cloud (NGC)](https://catalog.ngc.nvidia.com/) and exploring whether NVIDIA provides a container image for the application you require. Refer to our guide [here](/additional-guides/download-container-images) for detailed instructions.
 
 <hr>
 
 ## Build your own container images
-You also have the flexibility to create your own images tailored to your specific environment requirements. Refer to our guide on [building your own container image](/additional-guides/building-your-own-container-image).
+You also have the flexibility to create your own container images tailored to your specific environment requirements. Refer to our guide on [building your own container image](/additional-guides/building-your-own-container-image).
 
 <br>
 

@@ -26,7 +26,7 @@ From: ubuntu:20.04
     python3 --version
 ```
 
-In this example we will use `docker` to pull `ubuntu:20.04` as the base OS of our image. 
+In this example we will use `docker` to pull `ubuntu:20.04` as the base OS of our container image. 
 
 In the next section,`%post`, we can define commands that will be executed after the base OS has been installed. In this example, we will update the container and install `python3` and `pip` along with `numpy pandas scikit-learn matplotlib` packages. 
 
@@ -35,15 +35,41 @@ After that we can define commands to run after the container is built in the `%t
 You can find more options to use in definition file in the [Singularity definition file documentation](https://docs.sylabs.io/guides/3.0/user-guide/definition_files.html).
 
 To save the file press `CTRL + O` and enter a filename ending with `.def` and hit `ENTER`. In this example, lets call it `python3.def`.
-Now, lets build the container image from the definition file with the following command:
 
-```console
-srun singularity build --fakeroot python3.sif python3.def
+### Get access token from Sylabs
+
+Before you can build the container, you need to get an access token from Sylabs in order to authenticate the build of the container. Head over to [https://cloud.sylabs.io/](https://cloud.sylabs.io/) and Sign up for a new account (its free). Once you are logged it, then hover over your username in the top, and choose Access Tokens
+
+![Image of CLAAUDIA Logo](/assets/img/sylabs-access-tokens.png)
+
+Now, enter a name, in this case "mytoken" and press "Create Access Token". An access token is created, that you can use for 1 month before it expires. 
+
+![Image of CLAAUDIA Logo](/assets/img/sylabs-create-token.png)
+
+Now go back to AI-LAB and enter the following command to verify your access token:
+
+```
+srun singularity remote login
 ```
 
-`--fakeroot` is added as a parameter as you must be the root user and cannot use `sudo` on AI Lab.
+When prompted, paste the token you just copied.
 
-After some time you should  see the `Python X.X.X` version be printed in the terminal, and you should now have a `python3.sif` image ready to run.
+```
+Generate an access token at https://cloud.sylabs.io/auth/tokens, and paste it here.
+Token entered will be hidden for security.
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguc3lsYWJzLmlvL3Rva2VuIiwic3ViIjoiNjY3YThmMTJmMGVkNGQxMzdhYTA1NzMwIiwiZXhwIjoxNzIxOTA0MzE4LCJpYXQiOjE3MTkzMTIzMTgsImp0aSI6IjY2N2E5ZmJlMTRjNTI5MTY5Zjk4OGQwYyJ9.DseTflfB6_mT_9HQpX6tUetfdOR7-_QzVdJOu-reO6OY6rFYJ1ZU2acbkPJ2sLqUSGYfTp8bAOrvawZKJQ1hIGkFx3qGjK1s_sFx18dboN0zjFZPbsk41m6Vmu3u5d1tWzfCDn2GgGBgdeJ411M6ECvfAFCV5In3G5abZ44KyY_N1_ziPOYTmLCbtGEbagxBFIBIyGVhMtyFNdaPfVANko8BtsCAhi3_dW0jsT4EzMBpf3afEhdbjIPP5T_gWuTzxqY-VEQQZVYKr-TA9rfv-CPS_kzBK8AQ3kZThryUTi818Xxolr2UGjjph-m4aVN9sLNfSqJu3PQx1UdxBsyoPA
+Access Token:
+INFO:    Access Token Verified!
+INFO:    Token stored in /ceph/home/its.aau.dk/ry90cd/.singularity/remote.yaml
+```
+
+This You can now build container images from definition files using `--remote`. Lets build a container image from `python3.def` file:
+
+```console
+srun singularity build --remote python3.sif python3.def
+```
+
+After some time you should  see the `Python X.X.X` version be printed in the terminal, and you should now have a `python3.sif` container image ready to run.
 
 Lets for example print the matplotlib version:
 

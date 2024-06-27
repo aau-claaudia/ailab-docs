@@ -6,11 +6,7 @@ In this guide, we will demonstrate how to submit a job to Slurm using a bash scr
 Let's create a bash script to submit a simple job that runs a Singularity container. This job will run a Python script inside the container.
 
 #### Step 1: Prepare the Singularity Container
-Ensure you have a Singularity image (.sif file) ready. For this example, let's use the `tensorflow_24.03-tf2-py3.sif` image from `/ceph/container`.
-
-```console
-cp /ceph/container/tensorflow_24.03-tf2-py3.sif .
-```
+Ensure you have a Singularity image (.sif file) ready. For this example, let's use the `tensorflow_24.03-tf2-py3.sif` container image from `/ceph/container`.
 
 #### Step 2: Create the Python Script
 Create a simple Python script named hello.py:
@@ -18,7 +14,6 @@ Create a simple Python script named hello.py:
 ```
 print("Hello from within the Singularity container!")
 ```
-
 
 #### Step 3: Create the Bash Script
 Create a bash script named run_job.sh:
@@ -33,8 +28,7 @@ Create a bash script named run_job.sh:
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 
-# module load singularity
-singularity exec tensorflow_24.03-tf2-py3.sif python hello.py
+singularity exec /ceph/container/tensorflow_24.03-tf2-py3.sif python hello.py
 ```
 
 Explanation of SBATCH Options:

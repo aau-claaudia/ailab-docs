@@ -3,14 +3,14 @@ To login you need to [SSH connect](https://www.cloudflare.com/learning/access-ma
 Run the following command on the command line of your local Windows (*Windows PowerShell*), macOS, or Linux computer:
 
 ```
-ssh -l <email> ailab-fe01.srv.aau.dk
+ssh -l user@student.aau.dk ailab-fe01.srv.aau.dk
 ```
 or
 ```
-ssh -l <email> ailab-fe02.srv.aau.dk
+ssh -l user@student.aau.dk ailab-fe02.srv.aau.dk
 ```
 
-Replace `<email>` with your AAU email address.
+Replace `user@student.aau.dk` with your AAU email address.
 
 !!! info
     The first time you connect, you will get a message like:
@@ -26,7 +26,7 @@ Replace `<email>` with your AAU email address.
 
 Enter your AAU password when prompted. 
 
-When you can see `<email>@ailab-fe01:~$` you are succesfully logged in.
+When you can see `user@student.aau.dk@ailab-fe01:~$` you are succesfully logged in.
 
 <hr>
 
