@@ -1,0 +1,3 @@
+[submodule "docs/additional-guides"]
+	path = docs/additional-guides
+	url = https://github.com/aau-claaudia/ai-cloud-lab-shared-files.git
