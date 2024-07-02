@@ -8,3 +8,6 @@
 [submodule "shared-files"]
 	path = shared-files
 	url = https://github.com/aau-claaudia/ai-cloud-lab-shared-files.git
+[submodule "shared-guides"]
+	path = shared-guides
+	url = https://github.com/aau-claaudia/ai-cloud-lab-shared-files.git
