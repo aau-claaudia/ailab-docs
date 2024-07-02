@@ -4,21 +4,33 @@ In this overview, you will find a description of each major component of AI-LAB.
 
 ``` mermaid
 flowchart LR
-  subgraph id1[<p style="font-family: Barlow, sans-serif; font-weight: 800; font-size: 12px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 5px;">Computing cluster</p>]
-    direction TB
-    A["<span><img src="/assets/img/server.svg"  width='25' height='25' >Compute nodes ailab-l4-[01-11]</span>"] ~~~ B["<span><img src="/assets/img/server.svg" width='25' height='25'>Compute nodes vmware[01-04]</span>"]
-    end
+  subgraph id1[<p style="font-family: Barlow, sans-serif; font-weight: 800; font-size: 12px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 5px;">Compute nodes</p>]
+  direction TB
+  A["<span><img src="/assets/img/server.svg"  width='25' height='25' >ailab-l4-[01-11]</span>"]
+  end
 
   subgraph id2[<p style="font-family: Barlow, sans-serif; font-weight: 800; font-size: 16px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 10px;">AI-LAB</p>]
-    direction LR
-    G["<span><img src="/assets/img/server.svg" width='25' height='25'>Front-end node (ailab-fe01)</span>"] --> id1 
-    H["<span><img src="/assets/img/server.svg" width='25' height='25'>Front-end node (ailab-fe02)</span>"] --> id1 
-    id1 <--> E[<span><img src="/assets/img/database.svg" width='25' height='25'>File storage</span>]
+  direction TB
+  subgraph id3[<p style="font-family: Barlow, sans-serif; font-weight: 800; font-size: 12px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 5px;">Front-end nodes</p>]
+    direction TB
+    G["<span><img src="/assets/img/server.svg" width='25' height='25'>ailab-fe[01-02]</span>"]
+    end
+  id3 --> id1 
+
+  subgraph id4[<p style="font-family: Barlow, sans-serif; font-weight: 800; font-size: 12px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 5px;">File storage</p>]
+    direction TB
+    E["<span><img src="/assets/img/server.svg" width='25' height='25'>Ceph</span>"]
     end
 
-  F[<span><img src="/assets/img/person.svg" width='25' height='25'>User</span>]-- SSH --> G
-  F[<span><img src="/assets/img/person.svg" width='25' height='25'>User</span>]-- SSH --> H
+  id1 & id3 <--> id4
+  end
+
+  F[<span><img src="/assets/img/person.svg" width='25' height='25'>User laptop</span>]-- SSH --> id3
+
 ```
+
+
+
 
 <hr>
 

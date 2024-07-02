@@ -16,7 +16,6 @@ nav:
     - Running jobs: getting-started/running-jobs.md
     - Next steps: getting-started/next-steps.md
   - Applications:
-    - Python environment: applications/python.md
     - Ollama and LLM: applications/ollama-and-llm.md
     - MATLAB: applications/matlab.md
     - TensorFlow: applications/tensorflow.md

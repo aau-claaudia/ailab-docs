@@ -33,3 +33,17 @@ AI-LAB provides a variety of pre-downloaded containers to help users get started
 ## Interconnection of Slurm and Singularity
 On AI-LAB, Slurm and Singularity work together. Slurm handles the job scheduling and resource allocation, while Singularity ensures that the specified container environment is instantiated and the application runs with all its dependencies.
 
+``` mermaid
+flowchart LR
+  A[<span><img src="/assets/img/person.svg" width='25' height='25'>User laptop</span>]
+  B["<span><img src="/assets/img/server.svg" width='25' height='25'>Front-end node</span>"]
+  C["<span><img src="/assets/img/container.svg" width='25' height='25'>Singularity container job</span>"]
+  D["<span><img src="/assets/img/queue.svg" width='25' height='25'>Slurm</span>"]
+  E["<span><img src="/assets/img/server.svg" width='25' height='25'>Compute node</span>"]
+  
+  A-- SSH --> B --> C --> D --> E-- Result --> B
+
+  style C stroke-dasharray: 5 5
+  style D stroke-dasharray: 5 5
+
+```

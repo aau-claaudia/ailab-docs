@@ -603,4 +603,6 @@ del {
 }
 
 
-
+.flowchart-text {
+  font-family: Barlow, sans-serif; font-weight: 800; font-size: 16px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 10px;
+}
