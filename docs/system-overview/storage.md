@@ -25,6 +25,20 @@ Your user directory serves as the primary location for storing personal files an
 
 Here, [domain] represents your domain or institution (e.g., student.aau.dk), and [user] denotes your unique username on the platform. Any files you store within your user directory are private.
 
+!!! info "Storage quota"
+    When users log in to AI-LAB for the first time, a user directory is created for them. These directories are allocated 1 TB of storage by default. When you log in to the platform, you can see your storage usage of the user directory at the very top line:
+
+    ```
+    Current quota usage: 181GiB / 1.0TiB
+    Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-169-generic x86_64)
+
+    * Documentation:  https://help.ubuntu.com
+    * Management:     https://landscape.canonical.com
+    * Support:        https://ubuntu.com/pro
+
+    System information as of Fri Mar 15 11:09:21 CET 2024
+    ```
+
 <hr>
 
 ## Shared Project Directories

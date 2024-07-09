@@ -1,3 +1,6 @@
+AI-LAB is based on Ubuntu Linux as its operating system. In practice, working on AI-LAB primarily takes place via a command-line interface.
+
+
 AI-LAB leverages two primary software components: [Slurm](https://slurm.schedmd.com/quickstart.html) and [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html). Understanding these tools and how they work together is crucial for efficiently utilizing the AI-LAB platform.
 
 ## Slurm
