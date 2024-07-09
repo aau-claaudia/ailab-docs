@@ -1,6 +1,6 @@
 To login you need to [SSH connect](https://www.cloudflare.com/learning/access-management/what-is-ssh/) to either of the two front-end nodes, `ailab-fe01` or `ailab-fe02`. 
 
-Run the following command on the command line of your local Windows (*Windows PowerShell*), macOS, or Linux computer:
+Run the following command on a command-line interface on your local Windows (*Windows PowerShell*), macOS, or Linux computer:
 
 ```
 ssh -l user@student.aau.dk ailab-fe01.srv.aau.dk
