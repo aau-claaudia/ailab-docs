@@ -264,6 +264,9 @@ input.md-search__input::placeholder {
 .md-typeset .info>.admonition-title::before {
   display: none;
 }
+.show-on-ai-cloud, .show-on-ai-lab {
+  font-family: "Roboto", sans-serif;
+}
 
 
 
