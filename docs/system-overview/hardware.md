@@ -37,8 +37,6 @@ flowchart LR
 ## Front-end nodes
 You start by logging into a front-end node, either `ailab-fe01` or `ailab-fe02`. These nodes act as the gateway to the HPC system. Here, you can manage files, write and edit code, and prepare your computational tasks. It is important to note that front-end nodes are not intended for heavy computations; they are optimized for task preparation and interaction with the HPC environment.
 
-your computational tasks. The front-end node is *not* for heavy computations but for preparation and interaction with the HPC system.
-
 <hr>
 
 ## Compute nodes

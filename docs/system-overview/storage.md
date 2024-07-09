@@ -36,7 +36,7 @@ AI-LAB fosters collaborative work through shared project directories. These dire
         <ul>
         <li><i class="fa fa-folder-open"></i> project <span>shared project directories</span>
             <ul>
-            <li><i class="fa fa-folder"></i> projectgroup_X
+            <li><i class="fa fa-folder"></i> project_X
             </li>
             </ul>
         </li>
@@ -44,8 +44,6 @@ AI-LAB fosters collaborative work through shared project directories. These dire
     </li>
     </ul>
 </div>
-
-Each project group has its designated directory, ensuring secure access and efficient collaboration among team members.
 
 ==TODO: Guide on how to utilize this==
 

@@ -7,7 +7,7 @@ AI-LAB leverages two primary software components: [Slurm](https://slurm.schedmd.
 - **Resource Management:** Tracking and managing compute resources, ensuring optimal utilization.
 - **Queue Management:** Organizing jobs into queues, prioritizing and executing them based on policies and resource availability.
 
-In AI-LAB, Slurm is responsible for managing the allocation and scheduling of compute resources, ensuring that user jobs are executed efficiently and fairly.
+On AI-LAB, Slurm is responsible for managing the allocation and scheduling of compute resources, ensuring that user jobs are executed efficiently and fairly.
 
 <hr>
 
