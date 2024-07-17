@@ -81,6 +81,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/conditional.js
+
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:

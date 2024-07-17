@@ -12,6 +12,35 @@ AI-LAB leverages two primary software components: [Slurm](https://slurm.schedmd.
 
 On AI-LAB, Slurm is responsible for managing the allocation and scheduling of compute resources, ensuring that user jobs are executed efficiently and fairly.
 
+``` mermaid
+flowchart LR
+  B["<span><img src="/assets/img/server.svg" width='25' height='25'>Front-end node</span>"]
+
+  C["<span><img src="/assets/img/code-file.svg" width='25' height='25'>Job id 4</span>"]
+
+  subgraph slurm[<p style="font-family: Barlow, sans-serif; font-weight: 800; font-size: 16px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 10px;">Slurm queue</p>]
+    direction LR
+    D1["<span><img src="/assets/img/code-file.svg" width='25' height='25'>Job id 4</span>"]
+    D2["<span><img src="/assets/img/code-file.svg" width='25' height='25'>Job id 3</span>"]
+    D3["<span><img src="/assets/img/code-file.svg" width='25' height='25'>Job id 2</span>"]
+    D1 -.- D2 -.- D3
+    end
+
+  subgraph cluster[<p style="font-family: Barlow, sans-serif; font-weight: 800; font-size: 12px; text-transform: uppercase; color: #221a52; letter-spacing: 1px; margin: 5px;">Compute nodes</p>]
+    direction LR
+
+    E1["<span><img src="/assets/img/code-file.svg" width='25' height='25'>Job id 1</span>"]
+    E2["<span><img src="/assets/img/server.svg"  width='25' height='25' >ailab-l4-01</span>"]
+    
+    E1 --> E2
+    end
+
+  B --> C --> slurm --> cluster
+
+  style D1 stroke-dasharray: 5 5
+
+```
+
 <hr>
 
 ## Singularity
