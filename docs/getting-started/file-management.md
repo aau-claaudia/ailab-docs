@@ -32,7 +32,7 @@ For a detailed overview of the AI-LAB storage system, click [here](../system-ove
 <hr>
 
 ## Transfer files within AI-LAB
-You can use the command `cp [source] [destination]` to copy files to and from directories within AI-LAB. This will be useful when you need to retrieve applications or course materials later. For example:
+You can use the command `cp [source] [destination]` to copy files and `cp -r [source] [destination]` to copy folders to and from directories within AI-LAB. This will be useful when you need to retrieve applications or course materials later. For example:
 
 ```
 cp /ceph/course/claaudia/docs/matlab_script.m .
