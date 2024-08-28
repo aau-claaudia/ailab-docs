@@ -6,7 +6,7 @@ First, lets get the path to the MATLAB container image from the AI-LAB container
 ls /ceph/container
 ```
 
-Next, set the environment variable to specify the MATLAB license. In this case, point it to the AAU license server:
+Next, set the environment variable to specify the MATLAB license by running the following command:
 
 ```
 source /ceph/course/claaudia/docs/set_matlab_license.sh
