@@ -9,7 +9,7 @@ ls /ceph/container
 Next, set the environment variable to specify the MATLAB license. In this case, point it to the AAU license server:
 
 ```
-export MLM_LICENSE_FILE=27000@matlab.srv.aau.dk
+source /ceph/course/claaudia/docs/set_matlab_license.sh
 ```
 
 You can now process MATLAB scripts. To test if everything is working, copy the following script:
