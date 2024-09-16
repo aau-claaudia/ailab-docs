@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 
+
 {% block extrahead %} 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -8,5 +9,34 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" type='text/css'/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <meta name="{{page.meta}}"></meta>
+  <div style="background: darkslateblue;">
+    <p style="
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    ">This page is no longer maintained. </p>
+    <p style="
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    ">All information and guides related to AI-LAB have been moved to <a href="https://hpc.aau.dk/ai-lab/" style="
+    text-decoration: underline;
+    color: aquamarine;
+    font-weight: 600;
+    ">https://hpc.aau.dk/ai-lab/</a>. Please visit the new site for the most up-to-date resources on AI-LAB.</p>
+  </div>
 
 {% endblock %}
